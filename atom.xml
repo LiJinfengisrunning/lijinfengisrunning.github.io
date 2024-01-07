@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>今逢的博客</title>
+  
+  <subtitle>相遇今日</subtitle>
+  <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lijinfengisrunning.github.io/"/>
+  <updated>2024-01-07T08:12:59.471Z</updated>
+  <id>https://lijinfengisrunning.github.io/</id>
+  
+  <author>
+    <name>今逢</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://lijinfengisrunning.github.io/2024/01/06/First-Note/"/>
+    <id>https://lijinfengisrunning.github.io/2024/01/06/First-Note/</id>
+    <published>2024-01-06T09:56:21.000Z</published>
+    <updated>2024-01-07T08:12:59.471Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
