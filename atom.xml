@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-03T12:18:04.856Z</updated>
+  <updated>2024-04-04T16:01:10.579Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>today bug</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/04/%E6%84%8F%E5%A4%96%E7%9A%84%E6%A0%87%E8%AE%B0%E6%9C%AA%E8%A2%AB%E5%8C%85%E5%9B%B4%E8%BF%9B&#39;psvm&#39;/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/04/%E6%84%8F%E5%A4%96%E7%9A%84%E6%A0%87%E8%AE%B0%E6%9C%AA%E8%A2%AB%E5%8C%85%E5%9B%B4%E8%BF%9B&#39;psvm&#39;/</id>
+    <published>2024-04-04T05:41:51.848Z</published>
+    <updated>2024-04-04T16:01:10.579Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="“意外的标记”-未被包围进’psvm’"><a href="#“意外的标记”-未被包围进’psvm’" class="headerlink" title="“意外的标记”:未被包围进’psvm’"></a>“意外的标记”:未被包围进’psvm’</h3><h3 id="“断点运行”-选择断点后-用调试运行"><a href="#“断点运行”-选择断点后-用调试运行" class="headerlink" title="“断点运行”:选择断点后,用调试运行"></a>“断点运行”:选择断点后,用调试运行</h3><h3 id="“静态变量必须通过”被包含在静态方法里的对象来访问"><a href="#“静态变量必须通过”被包含在静态方法里的对象来访问" class="headerlink" title="“静态变量必须通过”被包含在静态方法里的对象来访问"></a>“静态变量必须通过”被包含在静态方法里的对象来访问</h3><h3 id="直接在一个方法里定义另一个独立方法"><a href="#直接在一个方法里定义另一个独立方法" class="headerlink" title="直接在一个方法里定义另一个独立方法"></a>直接在一个方法里定义另一个独立方法</h3><h3 id="静态变量只能定义在类的主体-不能定义在方法里"><a href="#静态变量只能定义在类的主体-不能定义在方法里" class="headerlink" title="静态变量只能定义在类的主体,不能定义在方法里"></a>静态变量只能定义在类的主体,不能定义在方法里</h3><h3 id="静态变量在创建以后就被分配了空间-相当于一个类-无论创建多少实例对象-永远只有此一个静态变量-同时每多创建一个调用该静态变量的实例-那么静态变量执行次数加1"><a href="#静态变量在创建以后就被分配了空间-相当于一个类-无论创建多少实例对象-永远只有此一个静态变量-同时每多创建一个调用该静态变量的实例-那么静态变量执行次数加1" class="headerlink" title="静态变量在创建以后就被分配了空间,相当于一个类,无论创建多少实例对象,永远只有此一个静态变量,同时每多创建一个调用该静态变量的实例,那么静态变量执行次数加1"></a>静态变量在创建以后就被分配了空间,相当于一个类,无论创建多少实例对象,永远只有此一个静态变量,同时每多创建一个调用该静态变量的实例,那么静态变量执行次数加1</h3><h3 id="而实例变量则是在被调用时-每被实例对象调用一次-就重新分配一次空间"><a href="#而实例变量则是在被调用时-每被实例对象调用一次-就重新分配一次空间" class="headerlink" title="而实例变量则是在被调用时,每被实例对象调用一次,就重新分配一次空间"></a>而实例变量则是在被调用时,每被实例对象调用一次,就重新分配一次空间</h3><h3 id="关于”protect”"><a href="#关于”protect”" class="headerlink" title="关于”protect”:"></a>关于”protect”:</h3><h4 id="1-继承父类的子类可以在子类的方法里实现父类的可见性-这个过程是可以跨包进行的"><a href="#1-继承父类的子类可以在子类的方法里实现父类的可见性-这个过程是可以跨包进行的" class="headerlink" title="1.继承父类的子类可以在子类的方法里实现父类的可见性,这个过程是可以跨包进行的"></a>1.继承父类的子类可以在子类的方法里实现父类的可见性,这个过程是可以跨包进行的</h4><h4 id="2-如果对子类实例一个对象-同时调用父类方法-那么调用父类方法的类-必须和父类在同一个包里-否则只能在原来的类里可见-而在实例对象的类里不可见-即无法编译成功"><a href="#2-如果对子类实例一个对象-同时调用父类方法-那么调用父类方法的类-必须和父类在同一个包里-否则只能在原来的类里可见-而在实例对象的类里不可见-即无法编译成功" class="headerlink" title="2.如果对子类实例一个对象,同时调用父类方法,那么调用父类方法的类,必须和父类在同一个包里,否则只能在原来的类里可见,而在实例对象的类里不可见,即无法编译成功"></a>2.如果对子类实例一个对象,同时调用父类方法,那么调用父类方法的类,必须和父类在同一个包里,否则只能在原来的类里可见,而在实例对象的类里不可见,即无法编译成功</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;“意外的标记”-未被包围进’psvm’&quot;&gt;&lt;a href=&quot;#“意外的标记”-未被包围进’psvm’&quot; class=&quot;headerlink&quot; title=&quot;“意外的标记”:未被包围进’psvm’&quot;&gt;&lt;/a&gt;“意外的标记”:未被包围进’psvm’&lt;/h3&gt;&lt;h3 i</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>aitool</title>
@@ -37,18 +57,18 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>for循环</title>
     <link href="https://lijinfengisrunning.github.io/2024/04/03/for%E5%BE%AA%E7%8E%AF/"/>
     <id>https://lijinfengisrunning.github.io/2024/04/03/for%E5%BE%AA%E7%8E%AF/</id>
     <published>2024-04-03T11:17:45.271Z</published>
-    <updated>2024-04-03T11:17:45.272Z</updated>
+    <updated>2024-04-04T05:36:35.691Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h2><h3 id="1-for里定义的初始量当循环结束时-会被杀死"><a href="#1-for里定义的初始量当循环结束时-会被杀死" class="headerlink" title="1.for里定义的初始量当循环结束时,会被杀死"></a>1.for里定义的初始量当循环结束时,会被杀死</h3><h3 id="2-sout-输出的只能是for方法以外存在的数据类型"><a href="#2-sout-输出的只能是for方法以外存在的数据类型" class="headerlink" title="2.[sout]输出的只能是for方法以外存在的数据类型"></a>2.[sout]输出的只能是for方法以外存在的数据类型</h3>]]></content>
+    <content type="html"><![CDATA[<h3 id="1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死"><a href="#1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死" class="headerlink" title="1.for里定义的初始量,没有赋值目标时,当循环结束时,会被杀死"></a>1.for里定义的初始量,没有赋值目标时,当循环结束时,会被杀死</h3><h3 id="2-sout-输出的只能是for方法以外存在的数据类型"><a href="#2-sout-输出的只能是for方法以外存在的数据类型" class="headerlink" title="2.[sout]输出的只能是for方法以外存在的数据类型"></a>2.[sout]输出的只能是for方法以外存在的数据类型</h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;for循环&quot;&gt;&lt;a href=&quot;#for循环&quot; class=&quot;headerlink&quot; title=&quot;for循环&quot;&gt;&lt;/a&gt;for循环&lt;/h2&gt;&lt;h3 id=&quot;1-for里定义的初始量当循环结束时-会被杀死&quot;&gt;&lt;a href=&quot;#1-for里定义的初始量当循环结束时</summary>
+    <summary type="html">&lt;h3 id=&quot;1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死&quot;&gt;&lt;a href=&quot;#1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死&quot; class=&quot;headerlink&quot; title=&quot;1.for里定义的初始量,没有赋值目标时,当循环结束时,</summary>
       
     
     
