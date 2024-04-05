@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-04T16:01:10.579Z</updated>
+  <updated>2024-04-05T06:30:59.512Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>跳过win11联网</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/05/win%E5%B0%8F%E5%A6%99%E6%8B%9B/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/05/win%E5%B0%8F%E5%A6%99%E6%8B%9B/</id>
+    <published>2024-04-05T06:30:59.512Z</published>
+    <updated>2024-04-05T06:30:59.512Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="oobe-bypassnro"><a href="#oobe-bypassnro" class="headerlink" title="oobe\bypassnro"></a>oobe\bypassnro</h4><hr><h2 id="查看公网ip"><a href="#查看公网ip" class="headerlink" title="查看公网ip:"></a>查看公网ip:</h2><h3 id="curl-ipinfo-io"><a href="#curl-ipinfo-io" class="headerlink" title="curl ipinfo.io"></a>curl ipinfo.io</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;oobe-bypassnro&quot;&gt;&lt;a href=&quot;#oobe-bypassnro&quot; class=&quot;headerlink&quot; title=&quot;oobe&#92;bypassnro&quot;&gt;&lt;/a&gt;oobe&#92;bypassnro&lt;/h4&gt;&lt;hr&gt;
+&lt;h2 id=&quot;查看公网ip&quot;&gt;&lt;a h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>todayBug</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/05/%E6%97%A0%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%88%99%E6%98%AF%E9%BB%98%E8%AE%A4%E4%BF%AE%E9%A5%B0%E7%AC%A6,%E9%BB%98%E8%AE%A4%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E5%8C%85%E7%BA%A7%E5%88%AB/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/05/%E6%97%A0%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%88%99%E6%98%AF%E9%BB%98%E8%AE%A4%E4%BF%AE%E9%A5%B0%E7%AC%A6,%E9%BB%98%E8%AE%A4%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%98%AF%E5%8C%85%E7%BA%A7%E5%88%AB/</id>
+    <published>2024-04-05T04:57:00.570Z</published>
+    <updated>2024-04-05T07:02:09.305Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="无修饰符则是默认修饰符-默认修饰符是包级别"><a href="#无修饰符则是默认修饰符-默认修饰符是包级别" class="headerlink" title="无修饰符则是默认修饰符,默认修饰符是包级别"></a>无修饰符则是默认修饰符,默认修饰符是包级别</h3><h3 id="类和接口不能声明为private"><a href="#类和接口不能声明为private" class="headerlink" title="类和接口不能声明为private"></a>类和接口不能声明为private</h3><h3 id="protect"><a href="#protect" class="headerlink" title="protect:"></a>protect:</h3><h4 id="1-实例对象必须是继承基类的类的实例-不能是基类的实例"><a href="#1-实例对象必须是继承基类的类的实例-不能是基类的实例" class="headerlink" title="1.实例对象必须是继承基类的类的实例,不能是基类的实例"></a>1.实例对象必须是继承基类的类的实例,不能是基类的实例</h4><h4 id="2-基类中-子类的实例对象能在基类中访问基类的方法"><a href="#2-基类中-子类的实例对象能在基类中访问基类的方法" class="headerlink" title="2.基类中,子类的实例对象能在基类中访问基类的方法"></a>2.基类中,子类的实例对象能在基类中访问基类的方法</h4><h4 id="总结一下-protect修饰方法可以被类本身、同一个包内的其他类，以及这个类的子类访问。"><a href="#总结一下-protect修饰方法可以被类本身、同一个包内的其他类，以及这个类的子类访问。" class="headerlink" title="总结一下:protect修饰方法可以被类本身、同一个包内的其他类，以及这个类的子类访问。"></a>总结一下:protect修饰方法可以被类本身、同一个包内的其他类，以及这个类的子类访问。</h4><h3 id="final方法可以被继承-不能重写-final类不能被继承"><a href="#final方法可以被继承-不能重写-final类不能被继承" class="headerlink" title="final方法可以被继承,不能重写;final类不能被继承"></a>final方法可以被继承,不能重写;final类不能被继承</h3><h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类:"></a>抽象类:</h3><h4 id="1-不能用来实例化"><a href="#1-不能用来实例化" class="headerlink" title="1.不能用来实例化"></a>1.不能用来实例化</h4><h4 id="2-包含抽象方法必须声明为抽象类-抽象类不必要包含抽象方法"><a href="#2-包含抽象方法必须声明为抽象类-抽象类不必要包含抽象方法" class="headerlink" title="2.包含抽象方法必须声明为抽象类;抽象类不必要包含抽象方法"></a>2.包含抽象方法必须声明为抽象类;抽象类不必要包含抽象方法</h4><h4 id="3-继承抽象类的子类必须实现该类包含的抽象方法"><a href="#3-继承抽象类的子类必须实现该类包含的抽象方法" class="headerlink" title="3.继承抽象类的子类必须实现该类包含的抽象方法"></a>3.继承抽象类的子类必须实现该类包含的<u><b>抽象方法</b></u></h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;无修饰符则是默认修饰符-默认修饰符是包级别&quot;&gt;&lt;a href=&quot;#无修饰符则是默认修饰符-默认修饰符是包级别&quot; class=&quot;headerlink&quot; title=&quot;无修饰符则是默认修饰符,默认修饰符是包级别&quot;&gt;&lt;/a&gt;无修饰符则是默认修饰符,默认修饰符是包级别&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>today bug</title>
