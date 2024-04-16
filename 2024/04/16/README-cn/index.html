@@ -1,0 +1,2188 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="coderoad"><meta name="keywords" content=""><meta name="author" content="今逢"><meta name="copyright" content="今逢"><title>coderoad | 今逢的博客</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  hexoVersion: '7.1.1'
+} </script><meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="今逢的博客" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E9%9D%A2%E8%AF%95%E5%A4%A7%E5%AD%A6"><span class="toc-number">1.</span> <span class="toc-text">编程面试大学</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Come-from-jwasham-coding-interview-university-A-complete-computer-science-study-plan-to-become-a-software-engineer-github-com"><span class="toc-number">2.</span> <span class="toc-text">Come from jwasham&#x2F;coding-interview-university: A complete computer science study plan to become a software engineer. (github.com)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E6%98%AF%EF%BC%9F"><span class="toc-number">2.1.</span> <span class="toc-text">这是？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-number">2.2.</span> <span class="toc-text">目录</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92"><span class="toc-number">2.2.1.</span> <span class="toc-text">学习计划</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%BB%E9%A2%98"><span class="toc-number">2.2.2.</span> <span class="toc-text">学习的主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8E%B7%E5%BE%97%E5%B7%A5%E4%BD%9C%E6%9C%BA%E4%BC%9A"><span class="toc-number">2.2.3.</span> <span class="toc-text">获得工作机会</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%AF%E9%80%89%E7%9A%84%E9%A2%9D%E5%A4%96%E4%B8%BB%E9%A2%98%E5%92%8C%E8%B5%84%E6%BA%90"><span class="toc-number">2.2.4.</span> <span class="toc-text">可选的额外主题和资源</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BD%95%E8%A6%81%E7%94%A8%E5%88%B0%E5%AE%83%EF%BC%9F"><span class="toc-number">2.3.</span> <span class="toc-text">为何要用到它？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%AE%83"><span class="toc-number">2.4.</span> <span class="toc-text">如何使用它</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E4%BD%A0%E4%B8%8D%E6%83%B3%E4%BD%BF%E7%94%A8-Git"><span class="toc-number">2.4.1.</span> <span class="toc-text">如果你不想使用 Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E4%BD%A0%E4%B8%8D%E4%BB%8B%E6%84%8F-Git"><span class="toc-number">2.4.2.</span> <span class="toc-text">如果你不介意 Git</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E8%A6%81%E8%A7%89%E5%BE%97%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%A4%9F%E8%81%AA%E6%98%8E"><span class="toc-number">2.5.</span> <span class="toc-text">不要觉得自己不够聪明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90"><span class="toc-number">2.6.</span> <span class="toc-text">相关视频资源</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80"><span class="toc-number">2.7.</span> <span class="toc-text">选择编程语言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92"><span class="toc-number">2.7.1.</span> <span class="toc-text">对于这个学习计划</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BC%96%E7%A8%8B%E9%9D%A2%E8%AF%95"><span class="toc-number">2.7.2.</span> <span class="toc-text">对于你的编程面试</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95%E7%9A%84%E4%B9%A6%E7%B1%8D"><span class="toc-number">2.8.</span> <span class="toc-text">数据结构和算法的书籍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C"><span class="toc-number">2.8.1.</span> <span class="toc-text">C</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Python"><span class="toc-number">2.8.2.</span> <span class="toc-text">Python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Java"><span class="toc-number">2.8.3.</span> <span class="toc-text">Java</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-1"><span class="toc-number">2.8.4.</span> <span class="toc-text">C++</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87%E4%B9%A6%E7%B1%8D"><span class="toc-number">2.9.</span> <span class="toc-text">面试准备书籍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%9C%89%E5%BE%88%E5%A4%9A%E9%A2%9D%E5%A4%96%E7%9A%84%E6%97%B6%E9%97%B4%EF%BC%9A"><span class="toc-number">2.9.1.</span> <span class="toc-text">如果你有很多额外的时间：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E8%A6%81%E7%8A%AF%E6%88%91%E7%9A%84%E9%94%99%E8%AF%AF"><span class="toc-number">2.10.</span> <span class="toc-text">不要犯我的错误</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%BD%A0%E4%B8%8D%E5%8F%AF%E8%83%BD%E6%8A%8A%E6%89%80%E6%9C%89%E7%9A%84%E4%B8%9C%E8%A5%BF%E9%83%BD%E8%AE%B0%E4%BD%8F"><span class="toc-number">2.10.1.</span> <span class="toc-text">1. 你不可能把所有的东西都记住</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8%E6%8A%BD%E8%AE%A4%E5%8D%A1"><span class="toc-number">2.10.2.</span> <span class="toc-text">2. 使用抽认卡</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%9C%A8%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%81%9A%E7%BC%96%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%A2%98"><span class="toc-number">2.10.3.</span> <span class="toc-text">3. 在学习过程中做编程面试题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%B8%93%E6%B3%A8"><span class="toc-number">2.10.4.</span> <span class="toc-text">4. 专注</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B2%A1%E6%9C%89%E5%8C%85%E5%90%AB%E7%9A%84%E5%86%85%E5%AE%B9"><span class="toc-number">2.11.</span> <span class="toc-text">没有包含的内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E5%B8%B8%E8%AE%A1%E5%88%92"><span class="toc-number">2.12.</span> <span class="toc-text">日常计划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98%E7%BB%83%E4%B9%A0"><span class="toc-number">2.13.</span> <span class="toc-text">编程问题练习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98"><span class="toc-number">2.14.</span> <span class="toc-text">编程问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A9%E6%88%91%E4%BB%AC%E5%BC%80%E5%A7%8B%E5%90%A7"><span class="toc-number">2.15.</span> <span class="toc-text">让我们开始吧</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6-Big-O-%E6%B8%90%E8%BF%9B%E5%88%86%E6%9E%90%E6%B3%95"><span class="toc-number">2.16.</span> <span class="toc-text">算法复杂度 &#x2F; Big-O &#x2F; 渐进分析法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">2.17.</span> <span class="toc-text">数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%EF%BC%88Arrays%EF%BC%89"><span class="toc-number">2.17.1.</span> <span class="toc-text">数组（Arrays）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E8%A1%A8%EF%BC%88Linked-Lists%EF%BC%89"><span class="toc-number">2.17.2.</span> <span class="toc-text">链表（Linked Lists）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A0%86%E6%A0%88%EF%BC%88Stack%EF%BC%89"><span class="toc-number">2.17.3.</span> <span class="toc-text">堆栈（Stack）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%98%9F%E5%88%97%EF%BC%88Queue%EF%BC%89"><span class="toc-number">2.17.4.</span> <span class="toc-text">队列（Queue）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%B8%8C%E8%A1%A8%EF%BC%88Hash-table%EF%BC%89"><span class="toc-number">2.17.5.</span> <span class="toc-text">哈希表（Hash table）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%9F%A5%E8%AF%86"><span class="toc-number">2.18.</span> <span class="toc-text">更多的知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%88Binary-search%EF%BC%89"><span class="toc-number">2.18.1.</span> <span class="toc-text">二分查找（Binary search）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%89%E4%BD%8D%E8%BF%90%E7%AE%97%EF%BC%88Bitwise-operations%EF%BC%89"><span class="toc-number">2.18.2.</span> <span class="toc-text">按位运算（Bitwise operations）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%91%EF%BC%88Trees%EF%BC%89"><span class="toc-number">2.19.</span> <span class="toc-text">树（Trees）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%91-%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.19.1.</span> <span class="toc-text">树-介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%9F%A5%E6%89%BE%E6%A0%91%EF%BC%88Binary-search-trees%EF%BC%89%EF%BC%9ABSTs"><span class="toc-number">2.19.2.</span> <span class="toc-text">二叉查找树（Binary search trees）：BSTs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A0%86%EF%BC%88Heap%EF%BC%89-%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97%EF%BC%88Priority-Queue%EF%BC%89-%E4%BA%8C%E5%8F%89%E5%A0%86%EF%BC%88Binary-Heap%EF%BC%89"><span class="toc-number">2.19.3.</span> <span class="toc-text">堆（Heap） &#x2F; 优先级队列（Priority Queue） &#x2F; 二叉堆（Binary Heap）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%92%E5%BA%8F%EF%BC%88Sorting%EF%BC%89"><span class="toc-number">2.20.</span> <span class="toc-text">排序（Sorting）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%EF%BC%88Graphs%EF%BC%89"><span class="toc-number">2.21.</span> <span class="toc-text">图（Graphs）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E5%A4%9A%E7%9F%A5%E8%AF%86"><span class="toc-number">2.22.</span> <span class="toc-text">更多知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%92%E5%BD%92%EF%BC%88Recursion%EF%BC%89"><span class="toc-number">2.22.1.</span> <span class="toc-text">递归（Recursion）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%88Dynamic-Programming%EF%BC%89"><span class="toc-number">2.22.2.</span> <span class="toc-text">动态规划（Dynamic Programming）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">2.22.3.</span> <span class="toc-text">设计模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E5%90%88%EF%BC%88Combinatorics%EF%BC%89-n-%E4%B8%AD%E9%80%89-k-%E4%B8%AA-%E6%A6%82%E7%8E%87%EF%BC%88Probability%EF%BC%89"><span class="toc-number">2.22.4.</span> <span class="toc-text">组合（Combinatorics） (n 中选 k 个) &amp; 概率（Probability）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NP-NP-Completeness%E5%92%8C%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95"><span class="toc-number">2.22.5.</span> <span class="toc-text">NP, NP-Completeness和近似算法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E7%A8%8B%E5%BA%8F"><span class="toc-number">2.22.6.</span> <span class="toc-text">计算机如何处理程序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%93%E5%AD%98%EF%BC%88Cache%EF%BC%89"><span class="toc-number">2.22.7.</span> <span class="toc-text">缓存（Cache）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E7%A8%8B%EF%BC%88Processe%EF%BC%89%E5%92%8C%E7%BA%BF%E7%A8%8B%EF%BC%88Thread%EF%BC%89"><span class="toc-number">2.22.8.</span> <span class="toc-text">进程（Processe）和线程（Thread）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95"><span class="toc-number">2.22.9.</span> <span class="toc-text">测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%90%9C%E7%B4%A2%E5%92%8C%E6%93%8D%E4%BD%9C"><span class="toc-number">2.22.10.</span> <span class="toc-text">字符串搜索和操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E5%85%B8%E6%A0%91%EF%BC%88Tries%EF%BC%89"><span class="toc-number">2.22.11.</span> <span class="toc-text">字典树（Tries）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E6%95%B0"><span class="toc-number">2.22.12.</span> <span class="toc-text">浮点数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unicode"><span class="toc-number">2.22.13.</span> <span class="toc-text">Unicode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E8%8A%82%E5%BA%8F%EF%BC%88Endianness%EF%BC%89"><span class="toc-number">2.22.14.</span> <span class="toc-text">字节序（Endianness）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%89"><span class="toc-number">2.22.15.</span> <span class="toc-text">网络（视频）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E7%BB%88%E5%A4%8D%E4%B9%A0"><span class="toc-number">2.23.</span> <span class="toc-text">最终复习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E6%96%B0%E4%BD%A0%E7%9A%84%E7%AE%80%E5%8E%86"><span class="toc-number">2.24.</span> <span class="toc-text">更新你的简历</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%A2%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%B8%80%E8%88%AC%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87"><span class="toc-number">2.25.</span> <span class="toc-text">面试流程与一般面试准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%93%E9%9D%A2%E8%AF%95%E6%9D%A5%E4%B8%B4%E7%9A%84%E6%97%B6%E5%80%99"><span class="toc-number">2.26.</span> <span class="toc-text">当面试来临的时候</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">2.27.</span> <span class="toc-text">问面试官的问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%93%E4%BD%A0%E8%8E%B7%E5%BE%97%E4%BA%86%E6%A2%A6%E6%83%B3%E7%9A%84%E8%81%8C%E4%BD%8D"><span class="toc-number">2.28.</span> <span class="toc-text">当你获得了梦想的职位</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%9D%E5%A4%96%E4%B9%A6%E7%B1%8D"><span class="toc-number">2.29.</span> <span class="toc-text">额外书籍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E5%92%8C%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="toc-number">2.30.</span> <span class="toc-text">系统设计、可扩展性和数据处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%99%84%E5%8A%A0%E5%AD%A6%E4%B9%A0"><span class="toc-number">2.31.</span> <span class="toc-text">附加学习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%99%A8"><span class="toc-number">2.31.1.</span> <span class="toc-text">编译器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Emacs-and-vi-m"><span class="toc-number">2.31.2.</span> <span class="toc-text">Emacs and vi(m)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unix-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7"><span class="toc-number">2.31.3.</span> <span class="toc-text">Unix 命令行工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%A1%E6%81%AF%E8%AE%BA-%E8%A7%86%E9%A2%91"><span class="toc-number">2.31.4.</span> <span class="toc-text">信息论 (视频)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E4%BD%8D-%E6%B1%89%E6%98%8E%E7%A0%81-%E8%A7%86%E9%A2%91"><span class="toc-number">2.31.5.</span> <span class="toc-text">奇偶校验位 &amp; 汉明码 (视频)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E7%86%B5%E5%80%BC%EF%BC%88Entropy%EF%BC%89"><span class="toc-number">2.31.6.</span> <span class="toc-text">系统熵值（Entropy）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%86%E7%A0%81%E5%AD%A6"><span class="toc-number">2.31.7.</span> <span class="toc-text">密码学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E7%BC%A9"><span class="toc-number">2.31.8.</span> <span class="toc-text">压缩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8"><span class="toc-number">2.31.9.</span> <span class="toc-text">计算机安全</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6"><span class="toc-number">2.31.10.</span> <span class="toc-text">垃圾回收</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B"><span class="toc-number">2.31.11.</span> <span class="toc-text">并行编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B6%88%E6%81%AF%E4%BC%A0%E9%80%92%EF%BC%8C%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E9%98%9F%E5%88%97%E7%B3%BB%E7%BB%9F"><span class="toc-number">2.31.12.</span> <span class="toc-text">消息传递，序列化和队列系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#A-%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95"><span class="toc-number">2.31.13.</span> <span class="toc-text">A*搜索算法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2"><span class="toc-number">2.31.14.</span> <span class="toc-text">快速傅里叶变换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="toc-number">2.31.15.</span> <span class="toc-text">布隆过滤器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HyperLogLog"><span class="toc-number">2.31.16.</span> <span class="toc-text">HyperLogLog</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C"><span class="toc-number">2.31.17.</span> <span class="toc-text">局部敏感哈希</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#van-Emde-Boas-%E6%A0%91"><span class="toc-number">2.31.18.</span> <span class="toc-text">van Emde Boas 树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A2%9E%E5%BC%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">2.31.19.</span> <span class="toc-text">增强数据结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E8%A1%A1%E6%9F%A5%E6%89%BE%E6%A0%91%EF%BC%88Balanced-search-trees%EF%BC%89"><span class="toc-number">2.31.20.</span> <span class="toc-text">平衡查找树（Balanced search trees）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#k-D%E6%A0%91"><span class="toc-number">2.31.21.</span> <span class="toc-text">k-D树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%B3%E8%A1%A8"><span class="toc-number">2.31.22.</span> <span class="toc-text">跳表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%B5%81"><span class="toc-number">2.31.23.</span> <span class="toc-text">网络流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E7%9B%B8%E4%BA%A4%E9%9B%86-%E8%81%94%E5%90%88%E6%9F%A5%E6%89%BE"><span class="toc-number">2.31.24.</span> <span class="toc-text">不相交集 &amp; 联合查找</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E5%A4%84%E7%90%86%E7%9A%84%E6%95%B0%E5%AD%A6"><span class="toc-number">2.31.25.</span> <span class="toc-text">快速处理的数学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%91%E5%A0%86-Treap"><span class="toc-number">2.31.26.</span> <span class="toc-text">树堆 (Treap)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%EF%BC%88Linear-Programming%EF%BC%89%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%89"><span class="toc-number">2.31.27.</span> <span class="toc-text">线性规划（Linear Programming）（视频）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E4%BD%95%EF%BC%9A%E5%87%B8%E5%8C%85%EF%BC%88Geometry-Convex-hull%EF%BC%89%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%89"><span class="toc-number">2.31.28.</span> <span class="toc-text">几何：凸包（Geometry, Convex hull）（视频）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6"><span class="toc-number">2.31.29.</span> <span class="toc-text">离散数学</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E4%B8%BB%E9%A2%98%E7%9A%84%E9%A2%9D%E5%A4%96%E5%86%85%E5%AE%B9"><span class="toc-number">2.32.</span> <span class="toc-text">一些主题的额外内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%86%E9%A2%91%E7%B3%BB%E5%88%97"><span class="toc-number">2.33.</span> <span class="toc-text">视频系列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E8%AF%BE%E7%A8%8B"><span class="toc-number">2.34.</span> <span class="toc-text">计算机科学课程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.35.</span> <span class="toc-text">算法实现</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BA%E6%96%87"><span class="toc-number">2.36.</span> <span class="toc-text">论文</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LICENSE"><span class="toc-number">2.37.</span> <span class="toc-text">LICENSE</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/tf.jpg"></div><div class="author-info__name text-center">今逢</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/LiJinfengisrunning">关注</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">15</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">今逢的博客</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">首页</a><a class="site-page" href="/archives">档案馆</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">coderoad</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2024-04-16</time></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="编程面试大学"><a href="#编程面试大学" class="headerlink" title="编程面试大学"></a>编程面试大学</h1><blockquote>
+<p>原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，<a target="_blank" rel="noopener" href="https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu">我成为了 Amazon 的软件开发工程师</a>! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。</p>
+<p>我每天自学8~12小时，这样持续了好几个月。这是我的故事：<a target="_blank" rel="noopener" href="https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13">为什么我为了 Google 面试而自学了8个月</a>。</p>
+<p><strong>请注意:</strong> 你不需要像我一样那么努力学习。我在一些不必要的事情上浪费了很多时间。关于这个问题下面有更多信息。我会帮助你节省宝贵的时间，让你达到目标。<br>在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：Amazon、Facebook、Google，以及 Microsoft。</p>
+<p><strong>祝你好运!</strong></p>
+</blockquote>
+<div align="center">
+    <hr>
+    <p>
+        <a target="_blank" rel="noopener" href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
+    </p>
+    <hr>
+</div>
+
+<h1 id="Come-from-jwasham-coding-interview-university-A-complete-computer-science-study-plan-to-become-a-software-engineer-github-com"><a href="#Come-from-jwasham-coding-interview-university-A-complete-computer-science-study-plan-to-become-a-software-engineer-github-com" class="headerlink" title="Come from jwasham&#x2F;coding-interview-university: A complete computer science study plan to become a software engineer. (github.com)"></a>Come from <a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university?tab=readme-ov-file#what-is-it">jwasham&#x2F;coding-interview-university: A complete computer science study plan to become a software engineer. (github.com)</a></h1><h2 id="这是？"><a href="#这是？" class="headerlink" title="这是？"></a>这是？</h2><p><img src="https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png" alt="白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”"></p>
+<p>这是我为成为一家大公司的软件工程师制定的多月学习计划。</p>
+<p><strong>要求:</strong> </p>
+<ul>
+<li>一点编程经验（变量、循环、方法&#x2F;函数等）</li>
+<li>耐心</li>
+<li>时间</li>
+</ul>
+<p>注意，这是一份关于 <strong>软件工程</strong> 的学习计划，而不是前端工程或全栈开发。<br>这些职业路径有很多详细的路线图和课程资料可以在其他地方找到（请参阅 <a target="_blank" rel="noopener" href="https://roadmap.sh/">https://roadmap.sh/</a> 获取更多信息）。</p>
+<p>在大学计算机科学专业中，有很多知识需要学习，但是只掌握大约75%的内容就足够应对面试了，这也是我在这里涵盖的内容。<br>如果你想进行完整的自学计算机科学项目，可以参考Kamran Ahmed的计算机科学路线图：<a target="_blank" rel="noopener" href="https://roadmap.sh/computer-science">https://roadmap.sh/computer-science</a></p>
+<hr>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h3><ul>
+<li><a href="#%E8%BF%99%E6%98%AF">这是？</a></li>
+<li><a href="#%E4%B8%BA%E4%BD%95%E8%A6%81%E7%94%A8%E5%88%B0%E5%AE%83">为何要用到它？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%AE%83">如何使用它</a></li>
+<li><a href="#%E4%B8%8D%E8%A6%81%E8%A7%89%E5%BE%97%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%A4%9F%E8%81%AA%E6%98%8E">不要觉得自己不够聪明</a></li>
+<li><a href="#%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90">相关视频资源</a></li>
+<li><a href="#%E9%80%89%E6%8B%A9%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80">选择编程语言</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95%E7%9A%84%E4%B9%A6%E7%B1%8D">数据结构和算法的书籍</a></li>
+<li><a href="#%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87%E4%B9%A6%E7%B1%8D">面试准备书籍</a></li>
+<li><a href="#%E4%B8%8D%E8%A6%81%E7%8A%AF%E6%88%91%E7%9A%84%E9%94%99%E8%AF%AF">不要犯我的错误</a></li>
+<li><a href="#%E6%B2%A1%E6%9C%89%E5%8C%85%E5%90%AB%E7%9A%84%E5%86%85%E5%AE%B9">没有包含的内容</a></li>
+<li><a href="#%E6%97%A5%E5%B8%B8%E8%AE%A1%E5%88%92">日常计划</a></li>
+<li><a href="#%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98%E7%BB%83%E4%B9%A0">编程问题练习</a></li>
+<li><a href="#%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98">编程问题</a></li>
+</ul>
+<h3 id="学习的主题"><a href="#学习的主题" class="headerlink" title="学习的主题"></a>学习的主题</h3><ul>
+<li><a href="#%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6--big-o--%E6%B8%90%E8%BF%9B%E5%88%86%E6%9E%90%E6%B3%95">算法复杂度 &#x2F; Big-O &#x2F; 渐进分析法</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">数据结构</a><ul>
+<li><a href="#%E6%95%B0%E7%BB%84arrays">数组（Arrays）</a></li>
+<li><a href="#%E9%93%BE%E8%A1%A8linked-lists">链表（Linked Lists）</a></li>
+<li><a href="#%E5%A0%86%E6%A0%88stack">堆栈（Stack）</a></li>
+<li><a href="#%E9%98%9F%E5%88%97queue">队列（Queue）</a></li>
+<li><a href="#%E5%93%88%E5%B8%8C%E8%A1%A8hash-table">哈希表（Hash table）</a></li>
+</ul>
+</li>
+<li><a href="#%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%9F%A5%E8%AF%86">更多的知识</a><ul>
+<li><a href="#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BEbinary-search">二分查找（Binary search）</a></li>
+<li><a href="#%E6%8C%89%E4%BD%8D%E8%BF%90%E7%AE%97bitwise-operations">按位运算（Bitwise operations）</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A0%91trees">树（Trees）</a><ul>
+<li><a href="#%E6%A0%91-%E4%BB%8B%E7%BB%8D">树-介绍</a></li>
+<li><a href="#%E4%BA%8C%E5%8F%89%E6%9F%A5%E6%89%BE%E6%A0%91binary-search-treesbsts">二叉查找树（Binary search trees）：BSTs</a></li>
+<li><a href="#%E5%A0%86heap--%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97priority-queue--%E4%BA%8C%E5%8F%89%E5%A0%86binary-heap">堆（Heap） &#x2F; 优先级队列（Priority Queue） &#x2F; 二叉堆（Binary Heap）</a></li>
+<li>平衡搜索树 (总体概念，不涉及细节)</li>
+<li>遍历：前序、中序、后序、BFS、DFS</li>
+</ul>
+</li>
+<li><a href="#%E6%8E%92%E5%BA%8Fsorting">排序</a><ul>
+<li>选择排序（selection）</li>
+<li>插入排序（insertion）</li>
+<li>堆排序（heapsort）</li>
+<li>快速排序（quicksort）</li>
+<li>归并排序（merge sort）</li>
+</ul>
+</li>
+<li><a href="#%E5%9B%BEgraphs">图（Graphs）</a><ul>
+<li>有向图（directed）</li>
+<li>无向图（undirected）</li>
+<li>邻接矩阵（adjacency matrix）</li>
+<li>邻接表（adjacency list）</li>
+<li>遍历：广度优先(BFS), 深度优先(DFS)</li>
+</ul>
+</li>
+<li><a href="#%E6%9B%B4%E5%A4%9A%E7%9F%A5%E8%AF%86">更多知识</a><ul>
+<li><a href="#%E9%80%92%E5%BD%92recursion">递归</a></li>
+<li><a href="#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92dynamic-programming">动态规划</a></li>
+<li><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">设计模式</a></li>
+<li><a href="#%E7%BB%84%E5%90%88combinatorics-n-%E4%B8%AD%E9%80%89-k-%E4%B8%AA--%E6%A6%82%E7%8E%87probability">组合 &amp; 概率</a></li>
+<li><a href="#np-np-%E5%AE%8C%E5%85%A8%E5%92%8C%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95">NP, NP-完全和近似算法</a></li>
+<li><a href="#%E7%BC%93%E5%AD%98cache">缓存</a></li>
+<li><a href="#%E8%BF%9B%E7%A8%8Bprocesse%E5%92%8C%E7%BA%BF%E7%A8%8Bthread">进程和线程</a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95">测试</a></li>
+<li><a href="#%E8%B0%83%E5%BA%A6">调度</a></li>
+<li><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%90%9C%E7%B4%A2%E5%92%8C%E6%93%8D%E4%BD%9C">字符串搜索和操作</a></li>
+<li><a href="#%E5%AD%97%E5%85%B8%E6%A0%91tries">字典树（Tries）</a></li>
+<li><a href="#%E6%B5%AE%E7%82%B9%E6%95%B0">浮点数</a></li>
+<li><a href="#unicode">Unicode</a></li>
+<li><a href="#%E5%AD%97%E8%8A%82%E5%BA%8FEndianness">字节顺序</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91">网络</a></li>
+</ul>
+</li>
+<li><a href="#%E6%9C%80%E7%BB%88%E5%A4%8D%E4%B9%A0">最终复习</a></li>
+</ul>
+<h3 id="获得工作机会"><a href="#获得工作机会" class="headerlink" title="获得工作机会"></a>获得工作机会</h3><ul>
+<li><a href="#%E6%9B%B4%E6%96%B0%E4%BD%A0%E7%9A%84%E7%AE%80%E5%8E%86">更新你的简历</a></li>
+<li><a href="#%E6%89%BE%E5%B7%A5%E4%BD%9C">找工作</a></li>
+<li><a href="#%E9%9D%A2%E8%AF%95%E6%B5%81%E7%A8%8B%E4%B8%8E%E4%B8%80%E8%88%AC%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87">面试流程与一般面试准备</a></li>
+<li><a href="#%E5%BD%93%E9%9D%A2%E8%AF%95%E6%9D%A5%E4%B8%B4%E7%9A%84%E6%97%B6%E5%80%99">当面试来临的时候</a></li>
+<li><a href="#%E9%97%AE%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%84%E9%97%AE%E9%A2%98">问面试官的问题</a></li>
+<li><a href="#%E5%BD%93%E4%BD%A0%E8%8E%B7%E5%BE%97%E4%BA%86%E6%A2%A6%E6%83%B3%E7%9A%84%E8%81%8C%E4%BD%8D">当你获得了梦想的职位</a></li>
+</ul>
+<p><strong>—————- 以下所有内容均为可选项 —————-</strong></p>
+<h3 id="可选的额外主题和资源"><a href="#可选的额外主题和资源" class="headerlink" title="可选的额外主题和资源"></a>可选的额外主题和资源</h3><ul>
+<li><a href="#%E9%A2%9D%E5%A4%96%E4%B9%A6%E7%B1%8D">额外书籍</a></li>
+<li><a href="#%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E6%80%A7%E5%92%8C%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86">系统设计、可扩展性和数据处理</a></li>
+<li><a href="#%E9%99%84%E5%8A%A0%E5%AD%A6%E4%B9%A0">附加学习</a><ul>
+<li><a href="#%E7%BC%96%E8%AF%91%E5%99%A8">编译器</a></li>
+<li><a href="#emacs-and-vim">Emacs and vi(m)</a></li>
+<li><a href="#unix-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7">Unix 命令行工具</a></li>
+<li><a href="#%E4%BF%A1%E6%81%AF%E8%AE%BA-%E8%A7%86%E9%A2%91">信息论</a></li>
+<li><a href="#%E5%A5%87%E5%81%B6%E6%A0%A1%E9%AA%8C%E4%BD%8D--%E6%B1%89%E6%98%8E%E7%A0%81-%E8%A7%86%E9%A2%91">奇偶校验位 &amp; 汉明码 (视频)</a></li>
+<li><a href="#%E7%B3%BB%E7%BB%9F%E7%86%B5%E5%80%BCEntropy">系统熵值</a></li>
+<li><a href="#%E5%AF%86%E7%A0%81%E5%AD%A6">密码学</a></li>
+<li><a href="#%E5%8E%8B%E7%BC%A9">压缩</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8">计算机安全</a></li>
+<li><a href="#%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6">垃圾回收</a></li>
+<li><a href="#%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B">并行编程</a></li>
+<li><a href="#%E6%B6%88%E6%81%AF%E4%BC%A0%E9%80%92%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E9%98%9F%E5%88%97%E7%B3%BB%E7%BB%9F">消息传递，序列化和队列化的系统</a></li>
+<li><a href="#a*%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95">A*搜索算法</a></li>
+<li><a href="#%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2">快速傅里叶变换</a></li>
+<li><a href="#%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8">布隆过滤器</a></li>
+<li><a href="#hyperloglog">HyperLogLog</a></li>
+<li><a href="#%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C">局部敏感哈希</a></li>
+<li><a href="#van-emde-boas-%E6%A0%91">van Emde Boas 树</a></li>
+<li><a href="#%E5%A2%9E%E5%BC%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">增强数据结构</a></li>
+<li><a href="#%E5%B9%B3%E8%A1%A1%E6%9F%A5%E6%89%BE%E6%A0%91balanced-search-trees">平衡查找树</a><ul>
+<li>AVL 树</li>
+<li>伸缩树（Splay tree）</li>
+<li>红黑树</li>
+<li>2-3 查找树</li>
+<li>2-3-4 树(也称 2-4 树)</li>
+<li>N-ary (K-ary, M-ary)树</li>
+<li>B 树</li>
+</ul>
+</li>
+<li><a href="#k-d%E6%A0%91">k-D 树</a></li>
+<li><a href="#%E8%B7%B3%E8%A1%A8">跳表</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E6%B5%81">网络流</a></li>
+<li><a href="#%E4%B8%8D%E7%9B%B8%E4%BA%A4%E9%9B%86--%E8%81%94%E5%90%88%E6%9F%A5%E6%89%BE">不相交集 &amp; 联合查找</a></li>
+<li><a href="#%E5%BF%AB%E9%80%9F%E5%A4%84%E7%90%86%E7%9A%84%E6%95%B0%E5%AD%A6">快速处理的数学</a></li>
+<li><a href="#%E6%A0%91%E5%A0%86-treap">树堆 (Treap)</a></li>
+<li><a href="#%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92linear-programming%E8%A7%86%E9%A2%91">线性规划</a></li>
+<li><a href="#%E5%87%A0%E4%BD%95%E5%87%B8%E5%8C%85geometry-convex-hull%E8%A7%86%E9%A2%91">几何：凸包（Geometry, Convex hull）</a></li>
+<li><a href="#%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6">离散数学</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%80%E4%BA%9B%E4%B8%BB%E9%A2%98%E7%9A%84%E9%A2%9D%E5%A4%96%E5%86%85%E5%AE%B9">一些主题的额外内容</a></li>
+<li><a href="#%E8%A7%86%E9%A2%91%E7%B3%BB%E5%88%97">视频系列</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E8%AF%BE%E7%A8%8B">计算机科学课程</a></li>
+<li><a href="#%E8%AE%BA%E6%96%87">论文</a></li>
+</ul>
+<hr>
+<h2 id="为何要用到它？"><a href="#为何要用到它？" class="headerlink" title="为何要用到它？"></a>为何要用到它？</h2><p>如果你想在一家大公司担任软件工程师，这些是你必须了解的事情。</p>
+<p>如果你错过了计算机科学的学位，就像我一样，这将帮助你迎头赶上，并节省四年的时间。</p>
+<p>当我开始这个项目时，我对堆栈和堆没有任何了解，<br>也不知道大O表示法或者关于树的任何东西，也不知道如何遍历图形。<br>如果让我编写一个排序算法，相信我它会很糟糕。<br>我曾经使用过的每种数据结构都是内置在语言中的，并且我完全不知道它们在底层是如何工作的。<br>除非运行中的进程出现“内存不足”错误，否则我从来没有管理过内存，并且那时候就需要找到一种解决方法。<br>在我的生活中，我使用过一些多维数组和成千上万个关联数组，但从未从头开始创建数据结构。</p>
+<p>这是一个漫长的计划，以至于花费了我数月的时间。若你早已熟悉大部分的知识，那么也许能节省大量的时间。</p>
+<h2 id="如何使用它"><a href="#如何使用它" class="headerlink" title="如何使用它"></a>如何使用它</h2><p>下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。</p>
+<p>在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">更多关于 Github-flavored Markdown 的详情</a></li>
+</ul>
+<h3 id="如果你不想使用-Git"><a href="#如果你不想使用-Git" class="headerlink" title="如果你不想使用 Git"></a>如果你不想使用 Git</h3><p>在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。</p>
+<p>如果你打开一个代码编辑器，你会看到所有格式都很好。</p>
+<p><img src="https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png" alt="How to download the repo as a zip file"></p>
+<h3 id="如果你不介意-Git"><a href="#如果你不介意-Git" class="headerlink" title="如果你不介意 Git"></a>如果你不介意 Git</h3><p>创建一个新的分支，这样你就可以检查类似这样的项目了，只需在方括号中放入一个x：[x]</p>
+<ol>
+<li><p>在 GitHub 上 Fork 该仓库： 点击 Fork 按钮，将 <code>https://github.com/jwasham/coding-interview-university</code> 仓库复制到你的 GitHub 账号中。</p>
+<p> <img src="https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png" alt="Fork the GitHub repo"></p>
+</li>
+<li><p>克隆项目到本地：</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:&lt;your_github_username&gt;/coding-interview-university.git</span><br><span class="line">cd coding-interview-university</span><br><span class="line">git remote add upstream https://github.com/jwasham/coding-interview-university</span><br><span class="line">git remote set-url --push upstream DISABLE  # 这样你就不会将个人进展推回到原始仓库了。</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在你完成了一些修改后，在框框中打 x：</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git commit -am &quot;Marked personal progress&quot;</span><br><span class="line">git pull upstream main  # 将您的分支与原始仓库中的更改保持最新</span><br><span class="line">  </span><br><span class="line">git push # just pushes to your fork</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="不要觉得自己不够聪明"><a href="#不要觉得自己不够聪明" class="headerlink" title="不要觉得自己不够聪明"></a>不要觉得自己不够聪明</h2><ul>
+<li>大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。</li>
+<li>下面的视频可以帮助你克服这种不安全感：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0SARbwvhupQ">天才程序员的神话</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1i8ylq4j_EY">不要单打独斗：面对技术中的隐形怪物</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="相关视频资源"><a href="#相关视频资源" class="headerlink" title="相关视频资源"></a>相关视频资源</h2><p>部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。<br>这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。</p>
+<p>很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，<br>比如 YouTube 视频，以代替那些在线课程的视频。<br>此外，一些大学的讲座视频也是我所青睐的。</p>
+<h2 id="选择编程语言"><a href="#选择编程语言" class="headerlink" title="选择编程语言"></a>选择编程语言</h2><p>你需要为你做的编程面试选择一种编程语言，<br>但你也需要找到一种可以用来学习计算机科学概念的语言。</p>
+<p>最好是同一种语言，这样你只需精通其中一种。</p>
+<h3 id="对于这个学习计划"><a href="#对于这个学习计划" class="headerlink" title="对于这个学习计划"></a>对于这个学习计划</h3><p>在这个学习计划中，我主要使用了两种编程语言：C和Python。</p>
+<ul>
+<li>C: 非常底层。它允许你处理指针和内存的分配与释放，因此你能够深入理解数据结构和算法。<br>  在像Python或Java这样的高级语言中，这些细节被隐藏起来。在日常工作中，这是很好的，<br>  但当你学习这些底层数据结构时，感受它们与计算机硬件的联系也是非常有益的。<ul>
+<li>C 语言无处不在。在你学习的过程中，你会在书籍、讲座、视频以及<strong>任何地方</strong>看到C语言的例子。</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628">《C程序设计语言（第2版）》</a><ul>
+<li>这是一本简短的书，但它会让你很好地掌握C语言，只要稍微练习一下，<br>  你很快就能熟练使用。理解C语言有助于你了解程序和内存是如何工作的。</li>
+<li>你不需要深入研究这本书（甚至不用读完它）。只要阅读到你感觉舒服，并能写一些C语言的代码就可以了。</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/lekkas/c-algorithms">书中问题的答案</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Python: 现代且非常灵活，我学习它是因为它非常实用，同时在面试中也能让我写更少的代码。</li>
+</ul>
+<p>这是我的个人喜好，当然你可以根据自己的偏好来选择。</p>
+<p>也许你并不需要，但以下是一些学习新编程语言的网站：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://exercism.org/tracks">Exercism</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.codewars.com/">Codewars</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.hackerearth.com/for-developers/">HackerEarth</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.scaler.com/topics/">Scaler Topics (Java, C++)</a></li>
+</ul>
+<h3 id="对于你的编程面试"><a href="#对于你的编程面试" class="headerlink" title="对于你的编程面试"></a>对于你的编程面试</h3><p>你可以在编程这一环节，使用一种自己用起来较为舒适的语言去完成编程，但对于大公司，你只有三种固定的选择：</p>
+<ul>
+<li>C++</li>
+<li>Java</li>
+<li>Python</li>
+</ul>
+<p>你也可以使用下面两种编程语言，但可能会有某些限制，你需要事先查明：</p>
+<ul>
+<li>JavaScript</li>
+<li>Ruby</li>
+</ul>
+<p>这是我写的一篇关于选择面试语言的文章：<br><a target="_blank" rel="noopener" href="https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/">为编程面试选择一种语言</a>。<br>这是我发布帖子所基于的原始文章： <a target="_blank" rel="noopener" href="https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/">Choosing a Programming Language for Interviews</a></p>
+<p>你需要对你所选择的语言感到非常舒适且足够了解。</p>
+<p>更多关于语言选择的阅读：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/">选择适合你的编程面试的语言</a></li>
+</ul>
+<p><a href="../programming-language-resources.md">在此查看相关语言的资源</a></p>
+<h2 id="数据结构和算法的书籍"><a href="#数据结构和算法的书籍" class="headerlink" title="数据结构和算法的书籍"></a>数据结构和算法的书籍</h2><p>这本书将为你的计算机科学打下基础。</p>
+<p>只需选择一种你感到舒适的语言。你将会进行大量阅读和编码工作。</p>
+<h3 id="C"><a href="#C" class="headerlink" title="C"></a>C</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080">C语言中的算法，第1-5部分（捆绑包），第3版</a><ul>
+<li>基础知识，数据结构，排序，搜索和图算法</li>
+</ul>
+</li>
+</ul>
+<h3 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/">Python数据结构和算法</a><ul>
+<li>作者：Goodrich、Tamassia、Goldwasser</li>
+<li>我非常喜爱这本书，它包含了所有东西</li>
+<li>很 Python 的代码</li>
+<li>我的读书报告：<a target="_blank" rel="noopener" href="https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/">https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><p>你的选择：</p>
+<ul>
+<li>Goodrich, Tamassia, Goldwasser<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/">Java数据结构与算法</a></li>
+</ul>
+</li>
+<li>Sedgewick and Wayne:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/">算法（第4版）</a></li>
+<li>免费Coursera课程，涵盖该书内容（由作者授课！）：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1">算法I</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2">算法II</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h3><p>你的选择：</p>
+<ul>
+<li>Goodrich, Tamassia, and Mount<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275">C++数据结构与算法（第2版）</a></li>
+</ul>
+</li>
+<li>Sedgewick and Wayne<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/">C++算法（第1-4部分）：基础知识，数据结构，排序，搜索</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/">C++算法第5部分：图算法</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="面试准备书籍"><a href="#面试准备书籍" class="headerlink" title="面试准备书籍"></a>面试准备书籍</h2><p>你不需要买一堆这些。老实说，《破解编程面试》可能已经足够了，<br>但我买了更多来给自己更多的练习。但我总是做得太多。</p>
+<p>这两个都是我买的，他们给了我大量的练习。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/">Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition</a><ul>
+<li>提供C++和Java语言的答案</li>
+<li>这本书是准备《Cracking the Coding Interview》的很好热身书</li>
+<li>难度适中。大多数问题可能比实际面试中遇到的问题要简单（根据我所读的内容）</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/">Cracking the Coding Interview, 6th Edition</a><ul>
+<li>提供Java语言的答案</li>
+</ul>
+</li>
+</ul>
+<h3 id="如果你有很多额外的时间："><a href="#如果你有很多额外的时间：" class="headerlink" title="如果你有很多额外的时间："></a>如果你有很多额外的时间：</h3><p>选择一个：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836">Elements of Programming Interviews (C++ version)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/">Elements of Programming Interviews in Python</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/">Elements of Programming Interviews (Java version)</a><br>  - <a target="_blank" rel="noopener" href="https://github.com/gardncl/elements-of-programming-interviews">配套项目-本书中每个问题的方法存根和测试用例</a></li>
+</ul>
+<h2 id="不要犯我的错误"><a href="#不要犯我的错误" class="headerlink" title="不要犯我的错误"></a>不要犯我的错误</h2><p>这个列表在很多个月里不断增长，是的，它变得失控了。</p>
+<p>以下是我犯过的一些错误，这样你就能有更好的体验。而且你将节省数月时间。</p>
+<h3 id="1-你不可能把所有的东西都记住"><a href="#1-你不可能把所有的东西都记住" class="headerlink" title="1. 你不可能把所有的东西都记住"></a>1. 你不可能把所有的东西都记住</h3><p>我看了数小时的视频并做了大量笔记，几个月后有很多东西我都不记得了。<br>我花了三天时间浏览我的笔记并制作闪卡，以便进行复习。其实，并不需要那么多知识。</p>
+<p>请阅读以下的文章以免重蹈覆辙:</p>
+<p><a target="_blank" rel="noopener" href="https://startupnextdoor.com/retaining-computer-science-knowledge/">记住计算机科学知识</a>。</p>
+<h3 id="2-使用抽认卡"><a href="#2-使用抽认卡" class="headerlink" title="2. 使用抽认卡"></a>2. 使用抽认卡</h3><p>为了解决善忘的问题，我制作了一个抽认卡的网页，用于添加两种抽认卡：一般的及带有代码的。每种卡都会有不同的格式设计。<br>而且，我还以移动设备为先去设计这些网页，以使得在任何地方，我都能通过我的手机及平板去回顾知识。</p>
+<p>你也可以免费制作属于你自己的抽认卡网站：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/computer-science-flash-cards">抽认卡页面的代码仓库</a></li>
+</ul>
+<p><strong>我不建议使用我的闪卡</strong>。它们太多了，而且大部分都是你不需要的琐事。</p>
+<p>但是如果你不想听我的话，那就随你吧：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db">我的抽认卡数据库 ── 旧 1200 张</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db">我的抽认卡数据库 ── 新 1800 张</a></li>
+</ul>
+<p>有一点需要记住的是，我做事有点过头，以至于卡片都覆盖到所有的东西上，从汇编语言和 Python 的细枝末节，到机器学习和统计都被覆盖到卡片上。<br>而这种做法，对于要求来说是多余的。</p>
+<p><strong>在抽认卡上做笔记：</strong> 若你第一次发现你知道问题的答案时，先不要急着把其标注成“已知”。<br>反复复习这张抽认卡，直到每次都能答对后才是真正学会了这个问题。<br>反复地问答可帮助你深刻记住该知识点。</p>
+<p>这里有个替代我抽认卡的网站 <a target="_blank" rel="noopener" href="http://ankisrs.net/">Anki</a>，很多人向我推荐过它。<br>这个网站用同一个字卡重复出现的方式让你牢牢地记住知识。<br>这个网站非常容易使用，支持多平台，并且有云端同步功能。在 iOS 平台上收费25美金，其他平台免费。</p>
+<p>这是我用 Anki 这个网站里的格式所储存的抽认卡资料库: <a target="_blank" rel="noopener" href="https://ankiweb.net/shared/info/25173560">https://ankiweb.net/shared/info/25173560</a> （感谢 <a target="_blank" rel="noopener" href="https://github.com/xiewenya">@xiewenya</a>）。</p>
+<p>一些学生提到了关于空白间距的格式问题，可以通过以下方法进行修复：打开卡片组，编辑卡片，点击”卡片”选项，选择”样式”单选按钮，在卡片类中添加成员 “white-space: pre;”。</p>
+<h3 id="3-在学习过程中做编程面试题"><a href="#3-在学习过程中做编程面试题" class="headerlink" title="3. 在学习过程中做编程面试题"></a>3. 在学习过程中做编程面试题</h3><p><strong>这非常重要。</strong></p>
+<p>在学习数据结构和算法的同时，开始做编程面试题。</p>
+<p>你需要将所学知识应用于解决问题，否则你会忘记。我曾经犯过这个错误。</p>
+<p>一旦你学完一个主题，并且对它有了一定的掌握，比如 <strong>链表（linked lists）</strong>:</p>
+<ol>
+<li>打开其中一本<a href="#interview-prep-books">编程面试书籍</a>（或下方列出的编程问题网站之一）。</li>
+<li>关于链表的问题，请提出2或3个。</li>
+<li>继续学习下一个主题。</li>
+<li>稍后，回来再做另外2或3个链表问题。</li>
+<li>使用这种方法来学习每个新主题。</li>
+</ol>
+<p><strong>在学习这些内容的过程中不断做问题，而不是之后。</strong></p>
+<p>你被雇佣的不是因为你的知识，而是因为你如何应用这些知识。</p>
+<p>下面列出了许多资源供你参考。继续前进吧。</p>
+<h3 id="4-专注"><a href="#4-专注" class="headerlink" title="4. 专注"></a>4. 专注</h3><p>在学习的过程中，往往会有许多令人分心的事占据着我们宝贵的时间。<br>因此，专注和集中注意力是非常困难的。放点纯音乐能帮上一些忙。</p>
+<h2 id="没有包含的内容"><a href="#没有包含的内容" class="headerlink" title="没有包含的内容"></a>没有包含的内容</h2><p>有一些熟悉且普遍的技术在此未被谈及到：</p>
+<ul>
+<li>Javascript</li>
+<li>HTML，CSS和其他前端技术</li>
+<li>SQL</li>
+</ul>
+<h2 id="日常计划"><a href="#日常计划" class="headerlink" title="日常计划"></a>日常计划</h2><p>这门课涵盖了很多主题。每个主题可能需要你几天的时间，甚至可能需要一周或更长时间。这取决于你的日程安排。</p>
+<p>每天，按照列表中的下一个主题，观看一些关于该主题的视频，<br>然后用你选择的语言为这门课程编写该数据结构或算法的实现。</p>
+<p>在这里你可以查看到我的代码：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-c">C</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-cpp">C++</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-python">Python</a></li>
+</ul>
+<p>你不需要记住每个算法。你只需要能够理解它，以便能够编写自己的实现即可。</p>
+<h2 id="编程问题练习"><a href="#编程问题练习" class="headerlink" title="编程问题练习"></a>编程问题练习</h2><pre><code>这是为什么？我还没有准备好面试。
+</code></pre>
+<p><a href="#3-do-coding-interview-questions-while-youre-learning">那就回去阅读这部分。</a></p>
+<p>为什么你需要练习编程问题：</p>
+<ul>
+<li>识别问题，并确定合适的数据结构和算法</li>
+<li>收集问题的要求</li>
+<li>像在面试中那样口头表达解决问题的过程</li>
+<li>在白板或纸上编写代码，而不是在计算机上</li>
+<li>为您的解决方案确定时间和空间复杂度（参见下文中的大O表示法）。</li>
+<li>对你的解决方案进行测试</li>
+</ul>
+<p>在面试中，有一种方法论的、有交流的问题解决方法。你可以从编程面试书籍中了解这些，<br>但我发现下面这个网站也非常出色：<br><a target="_blank" rel="noopener" href="http://www.hiredintech.com/algorithm-design/">算法设计画布</a></p>
+<p>在白板或纸上写代码，而不是在计算机上。使用一些样例输入进行测试。然后在计算机上键入并进行测试。</p>
+<p>如果家里没有白板，请从艺术用品店购买一个大型的绘图本。<br>你可以坐在沙发上练习。这就是我的”沙发白板”。照片中我加了一支笔来衡量尺寸。如果你使用钢笔，你会希望能擦除。<br>会很快变得凌乱， <strong>我用铅笔和橡皮擦。</strong></p>
+<p><img src="https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg" alt="my sofa whiteboard"></p>
+<p><strong>编程问题练习并不是为了记住解决编程问题的答案。</strong></p>
+<h2 id="编程问题"><a href="#编程问题" class="headerlink" title="编程问题"></a>编程问题</h2><p>别忘了参考你的主要编程面试书籍<a href="#interview-prep-books">这里</a>.</p>
+<p>解决问题：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution">如何找到解决方案</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content">如何分析Topcoder问题陈述</a></li>
+</ul>
+<p>编程面试问题视频：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI">IDeserve（88个视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd">Tushar Roy（5个播放列表）</a><ul>
+<li>非常适合问题解决方案的演示</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-">Nick White - LeetCode解答（187个视频）</a><ul>
+<li>解释解决方案和代码的很好</li>
+<li>你可以在短时间内观看多个视频</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://youtube.com/FisherCoder">FisherCoder - LeetCode解答</a></li>
+</ul>
+<p>挑战&#x2F;练习网站：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://leetcode.com/">LeetCode</a><ul>
+<li>我最喜欢的编程问题网站。对于你准备的1-2个月时间，订阅会费是值得的。</li>
+<li>观看上面提到的Nick White和FisherCoder的视频，可以帮助你理解代码解决方案。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.hackerrank.com/">HackerRank</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/">TopCoder</a></li>
+<li><a target="_blank" rel="noopener" href="https://codeforces.com/">Codeforces</a></li>
+<li><a target="_blank" rel="noopener" href="https://codility.com/programmers/">Codility</a></li>
+<li><a target="_blank" rel="noopener" href="https://practice.geeksforgeeks.org/explore/?page=1">Geeks for Geeks</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.algoexpert.io/product">AlgoExpert</a><ul>
+<li>由谷歌工程师创建，也是提高你技能的优秀资源。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://projecteuler.net/">Project Euler</a><ul>
+<li>主要关注数学问题，并不完全适合编程面试。</li>
+</ul>
+</li>
+</ul>
+<h2 id="让我们开始吧"><a href="#让我们开始吧" class="headerlink" title="让我们开始吧"></a>让我们开始吧</h2><p>好了，说得够多了，让我们学习吧!</p>
+<p>但在学习的同时，不要忘记做上面的编码问题！</p>
+<h2 id="算法复杂度-Big-O-渐进分析法"><a href="#算法复杂度-Big-O-渐进分析法" class="headerlink" title="算法复杂度 &#x2F; Big-O &#x2F; 渐进分析法"></a>算法复杂度 &#x2F; Big-O &#x2F; 渐进分析法</h2><ul>
+<li>这里没有什么需要实施的，你只是在观看视频并记笔记！耶！</li>
+<li>这里有很多视频，只要看到你理解为止就好了，你随时可以回来复习。</li>
+<li>如果你不理解背后的所有数学，不要担心。</li>
+<li>你只需要理解如何用大O表示法来表达算法的复杂度。</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iOq5kSKqeR4">哈佛大学CS50 - 渐进符号（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=V6mKVRU1evU">大O符号（通用快速教程）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN">大O符号（以及Ω和Θ）- 最佳数学解释（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=z1mkCe3kVUA">Skiena（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98">加州大学伯克利分校关于大O符号（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN">摊还分析（视频）</a></li>
+<li><input disabled type="checkbox"> TopCoder（包括递归关系和主定理）：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one">计算复杂性：第1部分</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two">计算复杂性：第2部分</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://bigocheatsheet.com/">速查表</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv">[回顾] 在 18 分钟内分析算法（播放列表）（视频）</a></li>
+</ul>
+<p>好吧，差不多就到这里了。</p>
+<p>当你阅读《破解编程面试》时，有一个章节专门讲述此事，并在最后进行了一次测验，<br>以测试你是否能够确定不同算法的运行时间复杂度。这是一个非常全面的复习和测试。</p>
+<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><ul>
+<li><h3 id="数组（Arrays）"><a href="#数组（Arrays）" class="headerlink" title="数组（Arrays）"></a>数组（Arrays）</h3><ul>
+<li><input disabled type="checkbox"> 介绍：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s">数组 CS50 哈佛大学</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/arrays-OsBSF">数组（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE">加州大学伯克利分校CS61B - 线性和多维数组（视频）</a>（从15分32秒开始）</li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV">动态数组（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1jtrQqYpt7g">嵌套数组（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 实现一个动态数组（可自动调整大小的可变数组）：<ul>
+<li><input disabled type="checkbox"> 练习使用数组和指针去编码，并且指针是通过计算去跳转而不是使用索引</li>
+<li><input disabled type="checkbox"> 通过分配内存来新建一个原生数据型数组<ul>
+<li>可以使用 int 类型的数组，但不能使用其语法特性</li>
+<li>从大小为16或更大的数（使用2的倍数 —— 16、32、64、128）开始编写</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> size() —— 数组元素的个数</li>
+<li><input disabled type="checkbox"> capacity() —— 可容纳元素的个数</li>
+<li><input disabled type="checkbox"> is_empty()</li>
+<li><input disabled type="checkbox"> at(index) —— 返回对应索引的元素，且若索引越界则愤然报错</li>
+<li><input disabled type="checkbox"> push(item)</li>
+<li><input disabled type="checkbox"> insert(index, item) —— 在指定索引中插入元素，并把后面的元素依次后移</li>
+<li><input disabled type="checkbox"> prepend(item) —— 可以使用上面的 insert 函数，传参 index 为 0</li>
+<li><input disabled type="checkbox"> pop() —— 删除在数组末端的元素，并返回其值</li>
+<li><input disabled type="checkbox"> delete(index) —— 删除指定索引的元素，并把后面的元素依次前移</li>
+<li><input disabled type="checkbox"> remove(item) —— 删除指定值的元素，并返回其索引（即使有多个元素）</li>
+<li><input disabled type="checkbox"> find(item) —— 寻找指定值的元素并返回其中第一个出现的元素其索引，若未找到则返回 -1</li>
+<li><input disabled type="checkbox"> resize(new_capacity) &#x2F;&#x2F; 私有函数<ul>
+<li>若数组的大小到达其容积，则变大一倍</li>
+<li>获取元素后，若数组大小为其容积的1&#x2F;4，则缩小一半</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 时间复杂度<ul>
+<li>在数组末端增加&#x2F;删除、定位、更新元素，只允许占 O(1) 的时间复杂度（平摊（amortized）去分配内存以获取更多空间）</li>
+<li>在数组任何地方插入&#x2F;移除元素，只允许 O(n) 的时间复杂度</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 空间复杂度<ul>
+<li>因为在内存中分配的空间邻近，所以有助于提高性能</li>
+<li>空间需求 &#x3D; （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="链表（Linked-Lists）"><a href="#链表（Linked-Lists）" class="headerlink" title="链表（Linked Lists）"></a>链表（Linked Lists）</h3><ul>
+<li><input disabled type="checkbox"> 介绍：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s">链表 CS50 哈佛大学</a> - 这样建立了直观感。</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK">单链表（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0">CS 61B - 链表1（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w">CS 61B - 链表 2（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/F8AbOfQwl1c">[复习] 4分钟了解链表（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=QN6FPiD0Gzo">C代码（视频）</a><br>  - 不是整个视频，只是关于Node结构和内存分配的部分。</li>
+<li><input disabled type="checkbox"> 链表 vs 数组：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9">核心链表与数组（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd">在现实世界中，链表与数组的比较（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=YQs6IC-vgmo">为什么你需要避免使用链表（视频）</a></li>
+<li><input disabled type="checkbox"> 的确：你需要关于“指向指针的指针”的相关知识：（因为当你传递一个指针到一个函数时，<br>该函数可能会改变指针所指向的地址）该页只是为了让你了解“指向指针的指针”这一概念。<br>但我并不推荐这种链式遍历的风格。因为，这种风格的代码，其可读性和可维护性太低。<ul>
+<li><a target="_blank" rel="noopener" href="https://www.eskimo.com/~scs/cclass/int/sx8.html">指向指针的指针</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 实现（我实现了使用尾指针以及没有使用尾指针这两种情况）：<ul>
+<li><input disabled type="checkbox"> size() —— 返回链表中数据元素的个数</li>
+<li><input disabled type="checkbox"> empty() —— 若链表为空则返回一个布尔值 true</li>
+<li><input disabled type="checkbox"> value_at(index) —— 返回第 n 个元素的值（从0开始计算）</li>
+<li><input disabled type="checkbox"> push_front(value) —— 添加元素到链表的首部</li>
+<li><input disabled type="checkbox"> pop_front() —— 删除首部元素并返回其值</li>
+<li><input disabled type="checkbox"> push_back(value) —— 添加元素到链表的尾部</li>
+<li><input disabled type="checkbox"> pop_back() —— 删除尾部元素并返回其值</li>
+<li><input disabled type="checkbox"> front() —— 返回首部元素的值</li>
+<li><input disabled type="checkbox"> back() —— 返回尾部元素的值</li>
+<li><input disabled type="checkbox"> insert(index, value) —— 插入值到指定的索引，并把当前索引的元素指向到新的元素</li>
+<li><input disabled type="checkbox"> erase(index) —— 删除指定索引的节点</li>
+<li><input disabled type="checkbox"> value_n_from_end(n) —— 返回倒数第 n 个节点的值</li>
+<li><input disabled type="checkbox"> reverse() —— 逆序链表</li>
+<li><input disabled type="checkbox"> remove_value(value) —— 删除链表中指定值的第一个元素</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 双向链表<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists">介绍（视频）</a></li>
+<li>并不需要实现</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="堆栈（Stack）"><a href="#堆栈（Stack）" class="headerlink" title="堆栈（Stack）"></a>堆栈（Stack）</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks">堆栈（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/KcT3aVgrrpU">[Review] Stacks in 3 minutes (video)</a></li>
+<li><input disabled type="checkbox"> 可以不实现，因为使用数组来实现是微不足道的事</li>
+</ul>
+</li>
+<li><h3 id="队列（Queue）"><a href="#队列（Queue）" class="headerlink" title="队列（Queue）"></a>队列（Queue）</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/EShpq/queue">队列（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Circular_buffer">原型队列&#x2F;先进先出（FIFO）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/D6gu-_tmEpQ">[Review] Queues in 3 minutes (video)</a></li>
+<li><input disabled type="checkbox"> 使用含有尾部指针的链表来实现:<ul>
+<li>enqueue(value) —— 在尾部添加值</li>
+<li>dequeue() —— 删除最早添加的元素并返回其值（首部元素）</li>
+<li>empty()</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 使用固定大小的数组实现：<ul>
+<li>enqueue(value) —— 在可容的情况下添加元素到尾部</li>
+<li>dequeue() —— 删除最早添加的元素并返回其值</li>
+<li>empty()</li>
+<li>full()</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 花销：<ul>
+<li>在糟糕的实现情况下，使用链表所实现的队列，其入列和出列的时间复杂度将会是 O(n)。<br>  因为，你需要找到下一个元素，以致循环整个队列</li>
+<li>enqueue：O(1)（平摊（amortized）、链表和数组 [探测（probing）]）</li>
+<li>dequeue：O(1)（链表和数组）</li>
+<li>empty：O(1)（链表和数组）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="哈希表（Hash-table）"><a href="#哈希表（Hash-table）" class="headerlink" title="哈希表（Hash table）"></a>哈希表（Hash table）</h3><ul>
+<li><p><input disabled type="checkbox"> 
+视频：</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8">链式哈希表（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">Table Doubling 和 Karp-Rabin（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=C4Kc8xzcA68">PyCon 2010：强大的字典（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=66P5FMkWoVU">PyCon 2017：字典更强大（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11">(高级) 随机化：通用和完美哈希（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4">(进阶)完美哈希（Perfect hashing）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/knV86FlSXJ8">[复习]4分钟了解哈希表（视频）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+在线课程：</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP">核心哈希表（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/home/week/4">数据结构（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP">电话簿问题（视频）</a></li>
+<li><input disabled type="checkbox"> 分布式哈希表：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb">Dropbox中的即时上传和存储优化（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H">分布式哈希表（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+使用线性探测法的数组实现</p>
+<ul>
+<li>hash(k, m) - m是哈希表的大小</li>
+<li>add(key, value) - 如果键已存在，则更新值</li>
+<li>exists(key) - 检查键是否存在</li>
+<li>get(key) - 获取给定键的值</li>
+<li>remove(key) - 删除给定键的值</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="更多的知识"><a href="#更多的知识" class="headerlink" title="更多的知识"></a>更多的知识</h2><ul>
+<li><h3 id="二分查找（Binary-search）"><a href="#二分查找（Binary-search）" class="headerlink" title="二分查找（Binary search）"></a>二分查找（Binary search）</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=D5SrAga1pno">二分查找（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search">二分查找（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/">详情</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems">蓝图</a>   </li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/fDKIpRe8GW4">【复习】四分钟二分查找(视频)</a></li>
+<li><input disabled type="checkbox"> 实现：<ul>
+<li>二分查找（在一个已排序好的整型数组中查找）</li>
+<li>迭代式二分查找</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="按位运算（Bitwise-operations）"><a href="#按位运算（Bitwise-operations）" class="headerlink" title="按位运算（Bitwise operations）"></a>按位运算（Bitwise operations）</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf">Bits 速查表</a> ── 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）</li>
+<li><input disabled type="checkbox"> 好好理解位操作符的含义：&amp;、|、^、~、&gt;&gt;、&lt;&lt;<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Word_(computer_architecture)">字码（words）</a></li>
+<li><input disabled type="checkbox"> 好的介绍：<br>  <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=7jkIUgLC29I">位操作（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=d0AwjSpNXR0">C 语言编程教程 2-10：按位运算（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Bit_manipulation">位操作</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Bitwise_operation">按位运算</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://graphics.stanford.edu/~seander/bithacks.html">Bithacks</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://bits.stephan-brumme.com/">位元抚弄者（The Bit Twiddler）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://bits.stephan-brumme.com/interactive.html">交互式位元抚弄者（The Bit Twiddler Interactive）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ZusiKXcz_ac">位操作技巧（Bit Hacks）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/">练习位操作</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 一补数和补码<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=lKTsv6iVxV4">二进制：利 &amp; 弊（为什么我们要使用补码）（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Ones%27_complement">一补数（1s Complement）</a></li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Two%27s_complement">补码（2s Complement）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 计算置位（Set Bits）<ul>
+<li><a target="_blank" rel="noopener" href="https://youtu.be/Hzuzo9NJrlc">计算一个字节中置位（Set Bits）的四种方式（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan">计算比特位</a></li>
+<li><a target="_blank" rel="noopener" href="http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer">如何在一个 32 位的整型中计算置位（Set Bits）的数量</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 交换值：<ul>
+<li><a target="_blank" rel="noopener" href="http://bits.stephan-brumme.com/swap.html">交换（Swap）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 绝对值：<ul>
+<li><a target="_blank" rel="noopener" href="http://bits.stephan-brumme.com/absInteger.html">绝对整型（Absolute Integer）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="树（Trees）"><a href="#树（Trees）" class="headerlink" title="树（Trees）"></a>树（Trees）</h2><ul>
+<li><h3 id="树-介绍"><a href="#树-介绍" class="headerlink" title="树-介绍"></a>树-介绍</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/95qda/trees">树的介绍（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b">树遍历（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uWL6FJhq5fM">BFS（广度优先搜索）和DFS（深度优先搜索）（视频）</a><ul>
+<li>BFS 笔记<ul>
+<li>层次遍历（BFS，使用队列）</li>
+<li>时间复杂度： O(n)</li>
+<li>空间复杂度：最佳情况：O(1)，最坏情况：O(n&#x2F;2)&#x3D;O(n)</li>
+</ul>
+</li>
+<li>DFS 笔记：<ul>
+<li>时间复杂度：O(n)</li>
+<li>空间复杂度：<ul>
+<li>最好情况：O(log n) - 树的平均高度</li>
+<li>最坏情况：O(n)</li>
+</ul>
+</li>
+<li>中序遍历（DFS：左、节点本身、右）</li>
+<li>后序遍历（DFS：左、右、节点本身）</li>
+<li>先序遍历（DFS：节点本身、左、右）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/HZ5YTanv5QE">[复习]4分钟内的广度优先搜索（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/Urx87-NMm6c">[复习] 4分钟内的深度优先搜索（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b">[复习]11分钟内的树遍历（播放列表）（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="二叉查找树（Binary-search-trees）：BSTs"><a href="#二叉查找树（Binary-search-trees）：BSTs" class="headerlink" title="二叉查找树（Binary search trees）：BSTs"></a>二叉查找树（Binary search trees）：BSTs</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6">二叉搜索树复习（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction">介绍（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=9Jry5-82I68">MIT（视频）</a></li>
+<li>C&#x2F;C++:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28">二叉查找树 —— 在 C&#x2F;C++ 中实现（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29">BST 的实现 —— 在堆栈和堆中的内存分配（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">在二叉查找树中找到最小和最大的元素（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31">寻找二叉树的高度（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32">二叉树的遍历 —— 广度优先和深度优先策略（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">二叉树：层序遍历（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">二叉树的遍历：先序、中序、后序（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">判断一棵二叉树是否为二叉查找树（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36">从二叉查找树中删除一个节点（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">二叉查找树中序遍历的后继者（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 实现：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://leetcode.com/problems/insert-into-a-binary-search-tree/submissions/987660183/">insert    &#x2F;&#x2F; 将值插入树中</a></li>
+<li><input disabled type="checkbox"> get_node_count &#x2F;&#x2F; 查找树上的节点数</li>
+<li><input disabled type="checkbox"> print_values &#x2F;&#x2F; 从小到大打印树中节点的值</li>
+<li><input disabled type="checkbox"> delete_tree</li>
+<li><input disabled type="checkbox"> is_in_tree &#x2F;&#x2F; 如果值存在于树中则返回 true</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/">get_height &#x2F;&#x2F; 以节点为单位返回高度（单个节点的高度为1）</a></li>
+<li><input disabled type="checkbox"> get_min   &#x2F;&#x2F; 返回树上的最小值</li>
+<li><input disabled type="checkbox"> get_max   &#x2F;&#x2F; 返回树上的最大值</li>
+<li><input disabled type="checkbox"> is_binary_search_tree</li>
+<li><input disabled type="checkbox"> delete_value</li>
+<li><input disabled type="checkbox"> get_successor &#x2F;&#x2F; 返回给定值的后继者，若没有则返回-1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="堆（Heap）-优先级队列（Priority-Queue）-二叉堆（Binary-Heap）"><a href="#堆（Heap）-优先级队列（Priority-Queue）-二叉堆（Binary-Heap）" class="headerlink" title="堆（Heap） &#x2F; 优先级队列（Priority Queue） &#x2F; 二叉堆（Binary Heap）"></a>堆（Heap） &#x2F; 优先级队列（Priority Queue） &#x2F; 二叉堆（Binary Heap）</h3><ul>
+<li>以树形结构可视化，但通常在存储上是线性的（数组、链表）</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Heap_(data_structure)">堆（Heap）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/introduction-2OpTs">堆简介（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees">二叉树（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark">树高度备注（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations">基本操作（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees">完全二叉树（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode">伪代码（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291">堆排序 - 跳转到开始部分（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO">堆排序（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS">构建堆（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">MIT：堆和堆排序（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE">CS 61B Lecture 24：优先队列（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MiyLo8adrWw">线性时间构建堆（大顶堆）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6">[复习] 13分钟了解堆（视频）</a></li>
+<li><input disabled type="checkbox"> 实现一个大顶堆：<ul>
+<li><input disabled type="checkbox"> insert</li>
+<li><input disabled type="checkbox"> sift_up —— 用于插入元素</li>
+<li><input disabled type="checkbox"> get_max —— 返回最大值但不移除元素</li>
+<li><input disabled type="checkbox"> get_size() —— 返回存储的元素数量</li>
+<li><input disabled type="checkbox"> is_empty() —— 若堆为空则返回 true</li>
+<li><input disabled type="checkbox"> extract_max —— 返回最大值并移除</li>
+<li><input disabled type="checkbox"> sift_down —— 用于获取最大值元素</li>
+<li><input disabled type="checkbox"> remove(i) —— 删除指定索引的元素</li>
+<li><input disabled type="checkbox"> heapify —— 构建堆，用于堆排序</li>
+<li><input disabled type="checkbox"> heap_sort() —— 拿到一个未排序的数组，然后使用大顶堆或者小顶堆进行就地排序</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="排序（Sorting）"><a href="#排序（Sorting）" class="headerlink" title="排序（Sorting）"></a>排序（Sorting）</h2><ul>
+<li><p><input disabled type="checkbox"> 
+笔记:</p>
+<ul>
+<li>实现各种排序，知道每种排序的最坏、最好和平均的复杂度分别是什么场景:<ul>
+<li>不要用冒泡排序 - 效率太差 - 时间复杂度 O(n^2), 除非 n &lt;&#x3D; 16</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 排序算法的稳定性 (“快排是稳定的么?”)<ul>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Sorting_algorithm#Stability">排序算法的稳定性</a></li>
+<li><a target="_blank" rel="noopener" href="http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms">排序算法的稳定性</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.geeksforgeeks.org/stability-in-sorting-algorithms/">排序算法的稳定性</a></li>
+<li><a target="_blank" rel="noopener" href="http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf">排序算法 - 稳定性</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 哪种排序算法可以用链表？哪种用数组？哪种两者都可？<ul>
+<li>并不推荐对一个链表排序，但归并排序是可行的.</li>
+<li><a target="_blank" rel="noopener" href="http://www.geeksforgeeks.org/merge-sort-for-linked-list/">链表的归并排序</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关于堆排序，请查看前文堆的数据结构部分。堆排序很强大，不过是非稳定排序。</p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1/home/week/3">Sedgewick ── 归并排序（5个视频）</a></p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/mergesort-ARWDq">1. 归并排序（Mergesort）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort">2. 自底向上的归并排序（Bottom up Mergesort）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/sorting-complexity-xAltF">3. 排序复杂性（Sorting Complexity）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/comparators-9FYhS">4. 比较器（Comparators）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability">5. 稳定性（Stability）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1/home/week/3">Sedgewick ── 快速排序（4个视频）</a></p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/quicksort-vjvnC">1. 快速排序（Quicksort）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT">2. 选择排序（Selection）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd">3. 重复键（Duplicate Keys）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/algorithms-part1/system-sorts-QBNZ7">4. 系统排序（System Sorts）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+加州大学伯克利分校：</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I">CS 61B Lecture 29：排序 I（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk">CS 61B Lecture 30：排序 II（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc">CS 61B Lecture 32：排序 III（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4">CS 61B Lecture 33：排序 V（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_pvbBMd-3NoI">CS 61B 2014-04-21：基数排序（视频）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB">冒泡排序（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB">冒泡排序分析（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">插入排序 &amp; 归并排序（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB">插入排序（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB">归并排序（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB">快排（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB">选择排序（视频）</a></p>
+</li>
+<li><p><input disabled type="checkbox"> 
+归并排序代码：</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c">使用外部数组（C语言）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py">使用外部数组（Python语言）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc">对原数组直接排序（C++）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+快速排序代码：</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c">实现（C语言）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c">实现（C语言）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py">实现（Python语言）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl">[Review] Sorting (playlist) in 18 minutes</a></p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/Hoixgm4-P4M">Quick sort in 4 minutes (video)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/2DmK_H7IdTo">Heap sort in 4 minutes (video)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/4VqmGXwpLqc">Merge sort in 3 minutes (video)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/xli_FI7CuzA">Bubble sort in 2 minutes (video)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/g-PGLbMth_g">Selection sort in 3 minutes (video)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/JU767SDMDvA">Insertion sort in 2 minutes (video)</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+实现:</p>
+<ul>
+<li><input disabled type="checkbox"> 归并：平均和最差情况的时间复杂度为 O(n log n)。</li>
+<li><input disabled type="checkbox"> 快排：平均时间复杂度为 O(n log n)。</li>
+<li>选择排序和插入排序的最坏、平均时间复杂度都是 O(n^2)。</li>
+<li>关于堆排序，请查看前文堆的数据结构部分。</li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+有兴趣的话，还有一些补充，但并不是必须的:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/home/week/3">Sedgewick──基数排序 (6个视频)</a><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java">1. Java 中的字符串</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting">2. 键值索引计数（Key Indexed Counting）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort">3. Least Significant Digit First String Radix Sort</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort">4. Most Significant Digit First String Radix Sort</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort">5. 3中基数快速排序</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays">6. 后继数组（Suffix Arrays）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort">基数排序</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=xhr26ia4k38">基数排序（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">基数排序, 计数排序 (线性时间内)（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=cNB2lADK3_s&index=8&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">随机算法: 矩阵相乘, 快排, Freivalds’ 算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pOKy3RZbSws&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=14">线性时间内的排序（视频）</a></li>
+</ul>
+</li>
+</ul>
+<p>总结一下，这是<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kPRA0W1kECg">15种排序算法</a>的可视化表示。<br>如果你需要有关此主题的更多详细信息，请参阅“<a href="#%E4%B8%80%E4%BA%9B%E4%B8%BB%E9%A2%98%E7%9A%84%E9%A2%9D%E5%A4%96%E5%86%85%E5%AE%B9">一些主题的额外内容</a>”中的“排序”部分。</p>
+<h2 id="图（Graphs）"><a href="#图（Graphs）" class="headerlink" title="图（Graphs）"></a>图（Graphs）</h2><p>图表可以用来表示计算机科学中的许多问题，所以这一部分很长，就像树和排序一样。</p>
+<ul>
+<li><p>笔记:</p>
+<ul>
+<li>有4种基本方式在内存里表示一个图:<ul>
+<li>对象和指针</li>
+<li>邻接矩阵</li>
+<li>邻接表</li>
+<li>邻接图</li>
+</ul>
+</li>
+<li>熟悉以上每一种图的表示法，并了解各自的优缺点</li>
+<li>广度优先搜索和深度优先搜索：知道它们的计算复杂度和设计上的权衡以及如何用代码实现它们</li>
+<li>遇到一个问题时，首先尝试基于图的解决方案，如果没有再去尝试其他的。</li>
+</ul>
+</li>
+<li><p>MIT（视频）：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13">广度优先搜索</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14">深度优先搜索</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+Skiena 教授的课程 - 很不错的介绍:</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11">CSE373 2012 - 课程 11 - 图的数据结构（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12">CSE373 2012 - 课程 12 - 广度优先搜索（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13">CSE373 2012 - 课程 13 - 图的算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - 课程 14 - 图的算法 (1)（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - 课程 15 - 图的算法 (2)（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - 课程 16 - 图的算法 (3)（视频）</a></li>
+</ul>
+</li>
+<li><p><input disabled type="checkbox"> 
+图 (复习和其他):</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">6.006 单源最短路径问题（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NSHizBK9JD8&t=1731s&ab_channel=MITOpenCourseWare">6.006 Dijkstra算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=f9cVS_URPc0&ab_channel=MITOpenCourseWare">6.006 Bellman-Ford算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18">6.006 加速Dijkstra算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm">Aduni：图算法 I - 拓扑排序，最小生成树，Prim算法 - 讲座6（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7">Aduni：图算法 II - DFS，BFS，Kruskal算法，Union Find数据结构 - 讲座7（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8">Aduni：图算法 III：最短路径 - 讲座8（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9">Aduni：图算法 IV：几何算法入门 - 讲座9（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k">CS 61B 2014：加权图（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">贪婪算法：最小生成树（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=RpgcYiky7uw">强连通分量Kosaraju算法图算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw">[复习] 最短路径算法（播放列表）16分钟（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV">[复习] 最小生成树（播放列表）4分钟（视频）</a></li>
+</ul>
+</li>
+<li><p>完整的 Coursera 课程:</p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-on-graphs/home/welcome">图的算法（视频）</a></li>
+</ul>
+</li>
+<li><p>我会实现:</p>
+<ul>
+<li><input disabled type="checkbox"> DFS 邻接表 (递归)</li>
+<li><input disabled type="checkbox"> DFS 邻接表 (栈迭代)</li>
+<li><input disabled type="checkbox"> DFS 邻接矩阵 (递归)</li>
+<li><input disabled type="checkbox"> DFS 邻接矩阵 (栈迭代)</li>
+<li><input disabled type="checkbox"> BFS 邻接表</li>
+<li><input disabled type="checkbox"> BFS 邻接矩阵</li>
+<li><input disabled type="checkbox"> 单源最短路径问题 (Dijkstra)</li>
+<li><input disabled type="checkbox"> 最小生成树</li>
+<li>基于 DFS 的算法 (根据上文 Aduni 的视频):<ul>
+<li><input disabled type="checkbox"> 检查环 (我们会先检查是否有环存在以便做拓扑排序)</li>
+<li><input disabled type="checkbox"> 拓扑排序</li>
+<li><input disabled type="checkbox"> 计算图中的连通分支</li>
+<li><input disabled type="checkbox"> 列出强连通分量</li>
+<li><input disabled type="checkbox"> 检查双向图</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="更多知识"><a href="#更多知识" class="headerlink" title="更多知识"></a>更多知识</h2><ul>
+<li><h3 id="递归（Recursion）"><a href="#递归（Recursion）" class="headerlink" title="递归（Recursion）"></a>递归（Recursion）</h3><ul>
+<li><input disabled type="checkbox"> Stanford 大学关于递归 &amp; 回溯的课程:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8">课程 8 | 抽象编程（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9">课程 9 | 抽象编程（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69">课程 10 | 抽象编程（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11">课程 11 | 抽象编程（视频）</a></li>
+</ul>
+</li>
+<li>什么时候适合使用</li>
+<li>尾递归会更好么?<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad">什么是尾递归以及为什么它如此糟糕?</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1">尾递归（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/ngCos392W4w">解决任何递归问题的5个简单步骤（视频）</a></li>
+</ul>
+<p>  回溯蓝图: <a target="_blank" rel="noopener" href="https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)">Java</a><br>  <a target="_blank" rel="noopener" href="https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A">Python</a></p>
+</li>
+<li><h3 id="动态规划（Dynamic-Programming）"><a href="#动态规划（Dynamic-Programming）" class="headerlink" title="动态规划（Dynamic Programming）"></a>动态规划（Dynamic Programming）</h3><ul>
+<li>在你的面试中或许没有任何动态规划的问题，<br>  但能够知道一个题目可以使用动态规划来解决是很重要的。</li>
+<li>这一部分会有点困难，每个可以用动态规划解决的问题都必须先定义出递推关系，要推导出来可能会有点棘手。</li>
+<li>我建议先阅读和学习足够多的动态规划的例子，以便对解决 DP 问题的一般模式有个扎实的理解。</li>
+<li><input disabled type="checkbox"> 视频:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=wAA0AMfcJHQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=18">Skiena：CSE373 2020 - 讲座19 - 动态规划简介（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=T3A4jlHlhtA&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=19">Skiena：CSE373 2020 - 讲座20 - 编辑距离（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iPnPVcZmRbE&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=20">Skiena：CSE373 2020 - 讲座20 - 编辑距离（续）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2xPE4Wq8coQ&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=21">Skiena：CSE373 2020 - 讲座21 - 动态规划（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Yh3RzqQGsyI&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=22">Skiena：CSE373 2020 - 讲座22 - 动态规划和复习（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558">Simonson：动态规划 0（从59:18开始）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm">Simonson：动态规划 I - 第11讲（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12">Simonson：动态规划 II - 第12讲（视频）</a></li>
+<li><input disabled type="checkbox"> 单独的动态规划问题列表（每个都很短）:<br>  <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr">动态规划（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 耶鲁课程笔记:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming">动态规划</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> Coursera 课程:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem">RNA 二级结构问题（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm">动态规划算法（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm">DP 算法描述（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm">DP 算法的运行时间（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation">DP vs 递归实现（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment">全局成对序列排列（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment">本地成对序列排列（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3">UML 统一建模语言概览 (视频)</a></li>
+<li><input disabled type="checkbox"> 主要有如下的设计模式:<ul>
+<li><input disabled type="checkbox"> 策略模式（strategy）</li>
+<li><input disabled type="checkbox"> 单例模式（singleton）</li>
+<li><input disabled type="checkbox"> 适配器模式（adapter）</li>
+<li><input disabled type="checkbox"> 原型模式（prototype）</li>
+<li><input disabled type="checkbox"> 装饰器模式（decorator）</li>
+<li><input disabled type="checkbox"> 访问者模式（visitor）</li>
+<li><input disabled type="checkbox"> 工厂模式，抽象工厂模式（factory, abstract factory）</li>
+<li><input disabled type="checkbox"> 外观模式（facade）</li>
+<li><input disabled type="checkbox"> 观察者模式（observer）</li>
+<li><input disabled type="checkbox"> 代理模式（proxy）</li>
+<li><input disabled type="checkbox"> 委托模式（delegate）</li>
+<li><input disabled type="checkbox"> 命令模式（command）</li>
+<li><input disabled type="checkbox"> 状态模式（state）</li>
+<li><input disabled type="checkbox"> 备忘录模式（memento）</li>
+<li><input disabled type="checkbox"> 迭代器模式（iterator）</li>
+<li><input disabled type="checkbox"> 组合模式（composite）</li>
+<li><input disabled type="checkbox"> 享元模式（flyweight）</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLF206E906175C7E07">系列视频（27个）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124">书籍：《Head First设计模式》</a><ul>
+<li>I know the canonical book is “Design Patterns: Elements of Reusable Object-Oriented Software”, but Head First is great for beginners to OO.</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://sourcemaking.com/design-patterns-and-tips">Handy reference: 101 Design Patterns &amp; Tips for Developers</a></li>
+</ul>
+</li>
+<li><h3 id="组合（Combinatorics）-n-中选-k-个-概率（Probability）"><a href="#组合（Combinatorics）-n-中选-k-个-概率（Probability）" class="headerlink" title="组合（Combinatorics） (n 中选 k 个) &amp; 概率（Probability）"></a>组合（Combinatorics） (n 中选 k 个) &amp; 概率（Probability）</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8RRo6Ti9d0U">数据技巧: 如何找出阶乘、排列和组合(选择)（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sZkAAk9Wwa4">来点学校的东西: 概率（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dNaJg-mLobQ">来点学校的东西: 概率和马尔可夫链（视频）</a></li>
+<li><input disabled type="checkbox"> 可汗学院:<ul>
+<li>课程设置:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic">概率理论基础</a></li>
+</ul>
+</li>
+<li>只有视频 - 41 (每一个都短小精悍):<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19">概率解释（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="NP-NP-Completeness和近似算法"><a href="#NP-NP-Completeness和近似算法" class="headerlink" title="NP, NP-Completeness和近似算法"></a>NP, NP-Completeness和近似算法</h3><ul>
+<li>知道最经典的一些 NP-Completeness 问题，比如旅行商问题和背包问题，<br>  而且能在面试官试图忽悠你的时候识别出他们。</li>
+<li>知道 NP-Completeness 是什么意思.</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23">计算复杂度（视频）</a></li>
+<li><input disabled type="checkbox"> Simonson:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939">贪心算法. II &amp; 介绍 NP-Completeness（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm">NP-Completeness II &amp; 归约（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm">NP-Completeness III（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18">NP-Completeness IV（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> Skiena:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508">CSE373 2012 - 课程 23 - 介绍 NP-Completeness IV（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - 课程 24 - NP-Completeness证明（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - 课程 25 - NP-Completeness挑战（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=_EzetTkG_Cc&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=26">CSE373 2020年 - 第26讲 - NP-Completeness挑战（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22">复杂度: P, NP, NP-完全性, 规约（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24">复杂度: 近视算法 Algorithms（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">复杂度: 固定参数算法（视频）</a></li>
+<li>Peter Norvik 讨论旅行商问题的近似最优解:<ul>
+<li><a target="_blank" rel="noopener" href="http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb">Jupyter 笔记本</a></li>
+</ul>
+</li>
+<li>《算法导论》（CLRS）的第 1048 - 1140 页。</li>
+</ul>
+</li>
+<li><h3 id="计算机如何处理程序"><a href="#计算机如何处理程序" class="headerlink" title="计算机如何处理程序"></a>计算机如何处理程序</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=XM4lGflQFvA">CPU如何执行程序（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/1I5ZMmrOfnA">计算机如何进行计算 - 算术逻辑单元（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/fpnE6UAfbtU">寄存器和RAM（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/FZGugFqdr60">中央处理器（CPU）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://youtu.be/zltgXvg6r3k">指示和程序（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="缓存（Cache）"><a href="#缓存（Cache）" class="headerlink" title="缓存（Cache）"></a>缓存（Cache）</h3><ul>
+<li><input disabled type="checkbox"> LRU 缓存:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=R5ON3iwx78M">LRU 的魔力 (100 Days of Google Dev)（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=bq6N7Ym81iI">实现 LRU（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8-FZRAjR7qU">LeetCode - 146 LRU Cache (C++)（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> CPU 缓存:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24">MIT 6.004 L15: 存储体系（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-">MIT 6.004 L16: 缓存的问题（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="进程（Processe）和线程（Thread）"><a href="#进程（Processe）和线程（Thread）" class="headerlink" title="进程（Processe）和线程（Thread）"></a>进程（Processe）和线程（Thread）</h3><ul>
+<li><input disabled type="checkbox"> 计算机科学 162 - 操作系统 (25 个视频):<ul>
+<li>视频 1-11 是关于进程和线程</li>
+<li><a target="_blank" rel="noopener" href="https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c">操作系统和系统编程（视频）</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread">进程和线程的区别是什么?</a></li>
+<li>涵盖了:<ul>
+<li>进程、线程、协程<ul>
+<li>进程和线程的区别</li>
+<li>进程</li>
+<li>线程</li>
+<li>锁</li>
+<li>互斥</li>
+<li>信号量</li>
+<li>监控</li>
+<li>他们是如何工作的</li>
+<li>死锁</li>
+<li>活锁</li>
+</ul>
+</li>
+<li>CPU 活动, 中断, 上下文切换</li>
+<li>现代多核处理器的并发式结构</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2">分页（paging），分段（segmentation）和虚拟内存（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3">中断（视频）</a></li>
+<li>进程资源需要（内存：代码、静态存储器、栈、堆、文件描述符、I&#x2F;O）</li>
+<li>线程资源需要（在同一个进程内和其他线程共享以上（除了栈）的资源，但是每个线程都有独立的程序计数器、栈计数器、寄存器和栈）</li>
+<li>Fork 操作是真正的写时复制（只读），直到新的进程写到内存中，才会生成一份新的拷贝。</li>
+<li>上下文切换<ul>
+<li><a target="_blank" rel="noopener" href="https://www.javatpoint.com/what-is-the-context-switching-in-the-operating-system">操作系统和底层硬件如何启动上下文切换？</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M">C++ 的线程 (系列 - 10 个视频)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k">CS 377 春季’14：马萨诸塞大学的操作系统</a></li>
+<li><input disabled type="checkbox"> Python 的并发 (视频):<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1">线程系列</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Bs7vPNbB9JM">Python 线程</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Obt-vMVdM8s">理解 Python 的 GIL (2010)</a><ul>
+<li><a target="_blank" rel="noopener" href="http://www.dabeaz.com/GIL">参考</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MCs5OvhV9S4">David Beazley - Python 协程 - PyCon 2015</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ZzfHjytDceU">Keynote David Beazley - 兴趣主题 (Python 异步 I&#x2F;O)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0zaPs8OtyKY">Python 中的互斥</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><ul>
+<li>涵盖了:<ul>
+<li>单元测试是如何工作的</li>
+<li>什么是模拟对象</li>
+<li>什么是集成测试</li>
+<li>什么是依赖注入</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=SAhJf36_u5U">James Bach 讲敏捷软件测试（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ILkT_HV9DVU">James Bach 软件测试公开课（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://vimeo.com/83960706">Steve Freeman - 测试驱动的开发（视频）</a><ul>
+<li><a target="_blank" rel="noopener" href="http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf">slides</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 依赖注入:<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=IKD2-MAkXyQ">视频</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html">测试之道</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html">如何编写测试</a></li>
+</ul>
+</li>
+<li><h3 id="字符串搜索和操作"><a href="#字符串搜索和操作" class="headerlink" title="字符串搜索和操作"></a>字符串搜索和操作</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays">Sedgewick──后缀数组（Suffix Arrays）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/home/week/4">Sedgewick──子字符串搜寻（视频）</a><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search">1. 子字符串搜寻导论</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search">2. 子字符串搜寻──暴力法</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt">3. KMP算法</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore">4. Boyer-Moore算法</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp">5. Rabin-Karp算法</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text">文本的搜索模式（视频）</a></li>
+</ul>
+</li>
+</ul>
+<p>如果你需要有关此主题的更多详细信息，请参阅“<a href="#%E4%B8%80%E4%BA%9B%E4%B8%BB%E9%A2%98%E7%9A%84%E9%A2%9D%E5%A4%96%E5%86%85%E5%AE%B9">一些主题的额外内容</a>”中的“字符串匹配”部分。</p>
+<ul>
+<li><h3 id="字典树（Tries）"><a href="#字典树（Tries）" class="headerlink" title="字典树（Tries）"></a>字典树（Tries）</h3><ul>
+<li>需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。</li>
+<li>阅读代码，但不实现。</li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/home/week/4">Sedgewick──字典树（3个视频）</a><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries">1. R Way字典树</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries">2. 三元搜索树</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations">3. 基于字符串的操作</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries">数据结构笔记及编程技术</a></li>
+<li><input disabled type="checkbox"> 短课程视频：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries">对字典树的介绍（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries">字典树的性能（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie">实现一棵字典树（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.toptal.com/java/the-trie-a-neglected-data-structure">字典树：一个被忽略的数据结构</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/">TopCoder —— 使用字典树</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=TJ8SkcUSdbU">标准教程（现实中的用例）（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf">MIT，高阶数据结构，字符串（视频中间有点困难）（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><ul>
+<li><input disabled type="checkbox"> 简单的8位: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ji3SfClm8TU">浮点数的表示 - 1（视频 - 计算中有错误 - 请查看视频描述）</a></li>
+</ul>
+</li>
+<li><h3 id="Unicode"><a href="#Unicode" class="headerlink" title="Unicode"></a>Unicode</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.joelonsoftware.com/articles/Unicode.html">每一个软件开发者的绝对最低限度，必须要知道的关于 Unicode 和字符集知识</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://kunststube.net/encoding/">关于处理文本需要的编码和字符集，每个程序员绝对需要知道的知识</a></li>
+</ul>
+</li>
+<li><h3 id="字节序（Endianness）"><a href="#字节序（Endianness）" class="headerlink" title="字节序（Endianness）"></a>字节序（Endianness）</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html">大&#x2F;小端序</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JrNF0KRAlyo">大端序 Vs 小端序（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=oBSuXP-1Tc0">由里入内的大端序与小端序（视频）</a><ul>
+<li>对于内核开发非常具有技术性，如果大多数的内容听不懂也没关系。</li>
+<li>前半部就已经足够了。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="网络（视频）"><a href="#网络（视频）" class="headerlink" title="网络（视频）"></a>网络（视频）</h3><ul>
+<li><strong>如果你具有网络经验或想成为可靠性工程师或运维工程师，期待你的问题</strong></li>
+<li>知道这些有益无害，多多益善!</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org">可汗学院</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Vdc8TCESIg8">UDP 和 TCP：网络传输协议中的数据压缩（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=e5DEVa9eSN0">TCP&#x2F;IP 和 OSI 模型解释！（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=nomyRJehhnM">互联网上的数据包传输。网络和 TCP&#x2F;IP 教程。（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=WGJrLqtX7As">HTTP（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=S2iBR2ZlZf0">SSL 和 HTTPS（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Rp3iZUvXWlM">SSL&#x2F;TLS（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=E9FxNzv1Tr8">HTTP 2.0（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j">视频系列（21个视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=t5xYI0jzOf4">子网络解密 - 第五部分 经典内部域名指向 CIDR 标记（视频）</a></li>
+<li><input disabled type="checkbox"> 套接字（Sockets）：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6G_W54zuadg&t=6s">Java──套接字──介绍（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=G75vN2mnJeQ">套接字编程（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="最终复习"><a href="#最终复习" class="headerlink" title="最终复习"></a>最终复习</h2><pre><code>本节将包含一系列短视频，您可以迅速观看，以便复习大部分重要概念。
+如果您经常需要温习知识，这会很有帮助。
+</code></pre>
+<ul>
+<li><input disabled type="checkbox"> 一系列2-3分钟的短主题视频（共23个视频）<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22">视频链接</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 一系列2-5分钟的短主题视频 - Michael Sambol（共48个视频）：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/@MichaelSambol">视频链接</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/msambol/dsa">代码示例</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1">Sedgewick的算法课程视频 - 算法I</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part2">Sedgewick的算法课程视频 - 算法II</a></li>
+</ul>
+<hr>
+<h2 id="更新你的简历"><a href="#更新你的简历" class="headerlink" title="更新你的简历"></a>更新你的简历</h2><ul>
+<li>在书籍《Cracking The Coding Interview》和《Programming Interviews Exposed》中查看简历准备信息。</li>
+<li><a target="_blank" rel="noopener" href="https://www.careercup.com/resume">“这就是一个优秀简历的样子” by Gayle McDowell（《Cracking the Coding Interview》的作者）</a>, <ul>
+<li>作者备注：“这是针对美国的简历。印度和其他国家的简历有不同的期望，尽管许多要点是相同的。”</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.techinterviewhandbook.org/resume/guide">“逐步简历指南” by Tech Interview Handbook</a><ul>
+<li>详细指南，教您如何从零开始设置您的简历，编写有效的简历内容，优化它，并测试您的简历。</li>
+</ul>
+</li>
+</ul>
+<h2 id="面试流程与一般面试准备"><a href="#面试流程与一般面试准备" class="headerlink" title="面试流程与一般面试准备"></a>面试流程与一般面试准备</h2><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1">如何在2021年通过工程师面试</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=N233T0epWTs">揭秘技术招聘过程</a></li>
+<li><input disabled type="checkbox"> 如何在四大科技巨头公司中找到工作：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=YJZCUhxNCv8">如何在四大科技巨头公司中找到工作 - 亚马逊、Facebook、谷歌和微软（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be">如何在四大科技巨头公司中找到工作1（后续视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 《破解编程面试》第一集：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=rEJzOhC5ZtQ">Gayle L McDowell - Cracking The Coding Interview（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=aClxtDcdpsQ">与作者Gayle Laakmann McDowell一起破解编程面试（视频）</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 破解Facebook编程面试：<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=wCl9kvQGHPI">方法论</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=4UWDyJq8jZg">问题演示</a></li>
+</ul>
+</li>
+<li>面试准备课程：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/">数据结构、算法和面试的Python课程（付费课程）：</a>:<ul>
+<li>以Python为中心的面试准备课程，涵盖数据结构、算法、模拟面试等内容。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513">使用Python的数据结构和算法简介（Udacity免费课程）：</a>:<ul>
+<li>一个免费的以Python为中心的数据结构和算法课程。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256">数据结构和算法纳米学位！（Udacity付费纳米学位）：</a>:<ul>
+<li>提供超过100个数据结构和算法练习的实际操作体验，并得到专属导师的指导，以帮助您为面试和实际工作做准备。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.educative.io/courses/grokking-the-behavioral-interview">Grokking行为面试（Educative免费课程）：</a>:<ul>
+<li>很多时候，阻碍您获得梦想工作的不是您的技术能力，而是您在行为面试中的表现。</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github">AlgoMonster（付费课程，提供免费内容）：)</a>:<ul>
+<li>LeetCode的速成课程。涵盖了从成千上万的问题中提炼出的所有模式。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>模拟面试：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://www.gainlo.co/#!/">Gainlo.co：来自大公司的模拟面试官</a> - 我用过这个，帮助我放松进行电话和现场面试。</li>
+<li><a target="_blank" rel="noopener" href="https://www.pramp.com/">Pramp：与同行进行模拟面试</a> - 同行模式的实践面试。</li>
+<li><a target="_blank" rel="noopener" href="https://interviewing.io/">interviewing.io：与资深工程师进行模拟面试 </a> - 匿名算法&#x2F;系统设计面试，与FAANG公司的资深工程师进行。</li>
+<li><a target="_blank" rel="noopener" href="https://meetapro.com/?utm_source=ciu">Meetapro：与顶级FAANG面试官进行模拟面试 </a> - 类似Airbnb的模拟面试&#x2F;指导平台。</li>
+<li><a target="_blank" rel="noopener" href="https://www.hellointerview.com/?utm_source=ciu">Hello Interview：与专家教练和人工智能模拟面试</a> - 直接与人工智能或 FAANG 员工工程师和经理面试。</li>
+<li><a target="_blank" rel="noopener" href="https://codemia.io/?utm_source=ciu">Codemia：通过人工智能或社区解决方案和反馈来练习系统设计问题</a> - 通过AI练习工具来解决系统设计问题。与社区分享你的解决方案，以获得反馈。.</li>
+</ul>
+<h2 id="当面试来临的时候"><a href="#当面试来临的时候" class="headerlink" title="当面试来临的时候"></a>当面试来临的时候</h2><p>随着下面列举的问题思考下你可能会遇到的 20 个面试问题，每个问题准备 2-3 种回答。<br>准备点故事，不要只是摆一些你完成的事情的数据，相信我，人人都喜欢听故事。</p>
+<ul>
+<li>你为什么想得到这份工作？</li>
+<li>你解决过的最有难度的问题是什么？</li>
+<li>面对过的最大挑战是什么?</li>
+<li>见过的最好或者最坏的设计是怎么样的?</li>
+<li>对某个产品提出改进建议。</li>
+<li>你作为一个个体同时也是团队的一员，如何达到最好的工作状态?</li>
+<li>你的什么技能或者经验是你的角色中不可或缺的，为什么？</li>
+<li>你在某份工作或某个项目中最享受的是什么?</li>
+<li>你在某份工作或某个项目中面临过的最大挑战是什么?</li>
+<li>你在某份工作或某个项目中遇到过的最硬的 Bug 是什么样的？</li>
+<li>你在某份工作或某个项目中学到了什么？</li>
+<li>你在某份工作或某个项目中哪些地方还可以做的更好？</li>
+</ul>
+<h2 id="问面试官的问题"><a href="#问面试官的问题" class="headerlink" title="问面试官的问题"></a>问面试官的问题</h2><p>我会问的一些：(可能我已经知道了答案但我想听听面试官的看法或者了解团队的前景):</p>
+<ul>
+<li>团队多大规模?</li>
+<li>开发周期是怎样的? 会使用瀑布流&#x2F;极限编程&#x2F;敏捷开发么?</li>
+<li>经常会为截止日期（deadlines）加班么? 或者是有弹性的?</li>
+<li>团队里怎么做技术选型?</li>
+<li>每周平均开多少次会?</li>
+<li>你觉得工作环境有助于员工集中精力吗?</li>
+<li>目前正在做什么工作?</li>
+<li>喜欢这些事情吗?</li>
+<li>工作期限是怎么样的?</li>
+<li>工作生活怎么平衡?</li>
+</ul>
+<h2 id="当你获得了梦想的职位"><a href="#当你获得了梦想的职位" class="headerlink" title="当你获得了梦想的职位"></a>当你获得了梦想的职位</h2><p>恭喜你！</p>
+<p>继续学习。</p>
+<p>活到老，学到老。</p>
+<hr>
+<pre><code>*****************************************************************************************************
+*****************************************************************************************************
+
+下面的内容都是可选的。
+通过学习这些内容，你将会得到更多的有关 CS 的概念，并将为所有的软件工程工作做更好的准备。
+你将会成为一个更全面的软件工程师。
+
+*****************************************************************************************************
+*****************************************************************************************************
+</code></pre>
+<hr>
+<h2 id="额外书籍"><a href="#额外书籍" class="headerlink" title="额外书籍"></a>额外书籍</h2><pre><code>你可以从以下的书单挑选你有兴趣的主题来研读。
+</code></pre>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/dp/013937681X">UNIX环境高级编程</a><ul>
+<li>老，但却很棒</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/dp/1593273894/">Linux 命令行大全</a><ul>
+<li>现代选择</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/TCP/IP_Illustrated">TCP-IP详解系列</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/gp/product/0596007124/">Head First 设计模式</a><ul>
+<li>设计模式入门介绍</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">设计模式：可复用面向对象软件的基础</a><ul>
+<li>也被称为“四人帮”（Gang of Four(GOF)）</li>
+<li>经典设计模式书籍</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202">算法设计手冊（Skiena）</a><ul>
+<li>作为复习以及问题辨别</li>
+<li>这本书中算法的部分难度已经超过面试会出现的</li>
+<li>本书分为两个部分:<ul>
+<li>数据结构和算法课本<ul>
+<li>优点:<ul>
+<li>跟其他算法课本一样是个很棒的复习素材</li>
+<li>包含作者以往解决工业及学术上问题的经验的故事</li>
+<li>含C语言代码示例</li>
+</ul>
+</li>
+<li>缺点:<ul>
+<li>某些地方跟《算法导论》（CLRS）一样艰深，但在某些主题，算法导论或许是更好的选择。</li>
+<li>第7、8、9章有点难以消化，因为某些地方并没有解释得很清楚，或者根本上我就是个学渣</li>
+<li>别会错意了，我很喜欢 Skiena 的教学方法以及他的风格。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>算法目录:<ul>
+<li>这个部分是买这本书的最大原因</li>
+<li>我即将着手进行这部分，一旦完成这部分我会再更新上来</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>可以在 kindle 上租</li>
+<li>解答：<ul>
+<li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20150404194210/http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)">解答</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata">勘误表</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://jeffe.cs.illinois.edu/teaching/algorithms/">算法</a> (Jeff Erickson)</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038">编程卓越之道（第一卷）：深入理解计算机</a><ul>
+<li>该书于2004年出版，虽然有些过时，但是对于简单了解计算机而言，这是一个了不起的资源</li>
+<li>作者发明了<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/High_Level_Assembly">高阶组合语言 HLA</a>，所以提到，并且举了一些HLA的例子。里面没有用到很多，但都是很棒的组合语言的例子。</li>
+<li>这些章节值得阅读，为你提供良好的基础：<ul>
+<li>第2章──数字表示</li>
+<li>第3章──二进制算术和位运算</li>
+<li>第4章──浮点表示</li>
+<li>第5章──字符表示</li>
+<li>第6章──内存组织和访问</li>
+<li>第7章──组合数据类型和内存对象</li>
+<li>第9章──CPU体系结构</li>
+<li>第10章──指令集架构</li>
+<li>第11章──内存体系结构和组织</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X">算法导论</a><ul>
+<li><strong>重要提示</strong>：读这本书的价值有限。本书很好地回顾了算法和数据结构，但不会教你如何编写良好的代码。你必须能够有效地编写一个不错的解决方案</li>
+<li>又称 CLR，有时是 CLRS，因为 Stein 最后才加入</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.amazon.com/dp/0128119055">计算机体系结构，第六版：定量方法</a><ul>
+<li>对于更丰富、更时新（2017年）但较长的处理方式</li>
+</ul>
+</li>
+</ul>
+<h2 id="系统设计、可扩展性和数据处理"><a href="#系统设计、可扩展性和数据处理" class="headerlink" title="系统设计、可扩展性和数据处理"></a>系统设计、可扩展性和数据处理</h2><p><strong>如果您有4年以上的工作经验，可以预期会遇到系统设计问题。</strong></p>
+<ul>
+<li>可扩展性和系统设计是一个非常广泛的主题，涵盖了许多内容和资源，<br>因为在设计一个可以扩展的软件&#x2F;硬件系统时需要考虑很多因素。<br>预计需要花费相当多的时间来学习这方面的知识。</li>
+<li>考虑要点：<ul>
+<li>可扩展性<ul>
+<li>将大数据集归纳为单一值</li>
+<li>将一个数据集转换为另一个数据集</li>
+<li>处理海量数据</li>
+</ul>
+</li>
+<li>系统设计<ul>
+<li>功能集</li>
+<li>接口</li>
+<li>类层次结构</li>
+<li>在特定约束下设计系统</li>
+<li>简单性和鲁棒性</li>
+<li>权衡</li>
+<li>性能分析和优化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <strong>从这里开始</strong>: <a target="_blank" rel="noopener" href="https://github.com/donnemartin/system-design-primer">The System Design Primer</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.hiredintech.com/system-design/">HiredInTech的系统设计</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023">如何准备回答技术面试中的设计问题？</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://javascript.plainenglish.io/8-steps-guide-to-ace-a-system-design-interview-7a5a797f4d7d">通过8个步骤掌握系统设计面试</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=UrYLYV7WSHM">数据库规范化 - 第一范式、第二范式、第三范式和第四范式（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://github.com/checkcheckzz/system-design-interview">系统设计面试 </a> - 这个资源有很多内容。浏览文章和示例。我列出了一些示例在下面。</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://web.archive.org/web/20120716060051/http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/">如何在系统设计面试中脱颖而出</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/">每个人都应该了解的数字</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html">进行上下文切换需要多长时间？</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=srOgpXECblk">跨数据中心的事务（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://ksat.me/a-plain-english-introduction-to-cap-theorem">CAP定理的简明英文介绍</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB">MIT 6.824：分布式系统，2020年春季（20个视频）</a></li>
+<li><input disabled type="checkbox"> 共识算法：<ul>
+<li><input disabled type="checkbox"> Paxos - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=s8JqcZtvnsM">Paxos协议 - Computerphile（视频）</a></li>
+<li><input disabled type="checkbox"> Raft - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=P9Ydif5_qvE">Raft分布式共识算法简介（视频）</a><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://raft.github.io/">易于理解的论文</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://thesecretlivesofdata.com/raft/">信息图</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.tom-e-white.com/2007/11/consistent-hashing.html">一致性哈希</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://horicky.blogspot.com/2009/11/nosql-patterns.html">NoSQL模式</a></li>
+<li><input disabled type="checkbox"> 可扩展性：<ul>
+<li>您不需要掌握所有这些内容，只需选择一些您感兴趣的。</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=-W9F__D3oY4">优秀的概述（视频）</a></li>
+<li><input disabled type="checkbox"> 短系列：<ul>
+<li><a target="_blank" rel="noopener" href="http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones">克隆</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database">数据库</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache">缓存</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism">异步性</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://www.aosabook.org/en/distsys.html">可扩展的Web架构和分布式系统</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf">分布式计算的谬误解释</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=modXC5IWTJI">Jeff Dean - 在Google构建软件系统以及吸取的教训（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://lethain.com/introduction-to-architecting-systems-for-scale/">架构师为规模而设计的介绍</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=9nWyWwY2Onc">缩放移动游戏以面向全球受众使用App Engine和Cloud Datastore（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=H4vMcD7zKM0">谷歌是如何进行面向全球基础设施的大规模工程的（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.topcoder.com/thrive/articles/The%20Importance%20of%20Algorithms">算法的重要性</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html">分片</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4">针对长期目标的工程 - Astrid Atkinson主题演讲（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html">在30分钟内了解YouTube 7年的可扩展性经验</a><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=G-lGCC4KKok">视频</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html">PayPal如何使用仅8台VM每天处理数十亿次交易</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/">如何在大型数据集中去重</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=3vV4YiqKm1o">通过Jon Cowie深入了解Etsy的规模和工程文化（视频）</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://thenewstack.io/led-amazon-microservices-architecture/">Amazon是如何转向自己的微服务架构的</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://eng.uber.com/trip-data-squeeze/">压缩还是不压缩，这是Uber面临的问题</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html">何时应使用近似查询处理？</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html">谷歌从单一数据中心到故障转移再到本地多家数据中心架构的转变</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html">为每天处理数百万请求的图像优化技术</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html">Patreon架构简介</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html">如何在Instagram庞大的推荐引擎中决定您将看到谁？</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html">现代缓存设计</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html">在Facebook规模下进行直播视频流</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html">在亚马逊AWS上如何扩展到1100万以上的用户</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html">全面了解Netflix整个堆栈</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it">延迟无处不在，而且它会让您丧失销售机会 - 如何应对</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances">Instagram的动力：数百个实例，几十种技术</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html">Salesforce架构 - 如何处理每天13亿次交易</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html">ESPN规模上的架构 - 每秒操作10万次“嘟嘟噜嘟嘟噜”</a></li>
+<li><input disabled type="checkbox"> 在下面的“消息、序列化和队列系统”部分查看一些将服务连接在一起的技术信息</li>
+<li><input disabled type="checkbox"> Twitter:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5cKTP36HVgI">O’Reilly MySQL CE 2011: Jeremy Cole, “Big and Small Data at @Twitter” (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">时间轴扩展</a></li>
+</ul>
+</li>
+<li>欲知更多信息，请参阅<a href="#video-series">Video Series</a> 部分中的“Mining Massive Datasets”视频系列</li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> 练习系统设计过程：以下是一些建议您在纸上尝试的想法，每个想法都有一些关于如何在现实世界中处理的文档：<ul>
+<li>复习: <a target="_blank" rel="noopener" href="https://github.com/donnemartin/system-design-primer">The System Design Primer</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.hiredintech.com/system-design/">HiredInTech的系统设计</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf">速查表</a></li>
+<li>流程：<ol>
+<li>理解问题和范围：<ul>
+<li>定义用例，与面试官的帮助</li>
+<li>提出额外的功能</li>
+<li>移除面试官认为超出范围的项目</li>
+<li>假设需要高可用性，并将其添加为用例</li>
+</ul>
+</li>
+<li>考虑限制：<ul>
+<li>询问每月有多少个请求</li>
+<li>询问每秒有多少个请求（他们可能会主动提供或让您计算）</li>
+<li>估计读取与写入的百分比</li>
+<li>保持估计时考虑80&#x2F;20法则</li>
+<li>每秒写入多少数据</li>
+<li>在5年内所需的总存储量</li>
+<li>每秒读取多少数据</li>
+</ul>
+</li>
+<li>抽象设计：<ul>
+<li>层（服务、数据、缓存）</li>
+<li>基础架构：负载均衡、消息传递</li>
+<li>驱动服务的任何关键算法的粗略概述</li>
+<li>考虑瓶颈并确定解决方案</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>练习：<ul>
+<li><a target="_blank" rel="noopener" href="https://blog.twitter.com/2010/announcing-snowflake">设计一个随机唯一ID生成系统</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.slideshare.net/dvirsky/introduction-to-redis">设计一个键值数据库</a></li>
+<li><a target="_blank" rel="noopener" href="http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">设计一个图片分享系统</a></li>
+<li><a target="_blank" rel="noopener" href="http://ijcai13.org/files/tutorial_slides/td3.pdf">设计一个推荐系统</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.hiredintech.com/system-design/the-system-design-process/">设计一个URL缩短系统：来自上面的复制</a></li>
+<li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20220217064329/https://adayinthelifeof.nl/2011/02/06/memcache-internals/">设计一个缓存系统</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="附加学习"><a href="#附加学习" class="headerlink" title="附加学习"></a>附加学习</h2><pre><code>我把它们加进来是为了让你成为更全方位的软件工程师，并且留意一些技术以及算法，让你拥有更大的工具箱。
+</code></pre>
+<ul>
+<li><h3 id="编译器"><a href="#编译器" class="headerlink" title="编译器"></a>编译器</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=IhC7sdYe-Jg">编译器的工作方式，约1分钟（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CSZLNYF4Klo">Harvard CS50-编译器（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=twodd1KFfGk">C ++（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=FnGCDLhaxKU">了解编译器优化（C ++）（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="Emacs-and-vi-m"><a href="#Emacs-and-vi-m" class="headerlink" title="Emacs and vi(m)"></a>Emacs and vi(m)</h3><ul>
+<li>熟悉基于 unix 的代码编辑器</li>
+<li>vi(m):<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr">使用 vim 进行编辑 01 - 安装, 设置和模式 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="http://vim-adventures.com/">VIM 的冒险之旅</a></li>
+<li>4 个视频集:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=SI8TeVMX8pk">vi&#x2F;vim 编辑器 - 课程 1</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=F3OO7ZIOaJE">vi&#x2F;vim 编辑器 - 课程 2</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1lYD5gwgZIA">vi&#x2F;vim 编辑器 - 课程 4</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ZYEccA_nMaI">vi&#x2F;vim 编辑器 - 课程 3</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs">使用 Vi 而不是 Emacs</a></li>
+</ul>
+</li>
+<li>emacs:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hbmV1bnQ-i0">基础 Emacs 教程 (视频)</a></li>
+<li>3 个视频集:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ujODL7MD04Q">Emacs 教程 (初学者) -第 1 部分- 文件命令, 剪切&#x2F;复制&#x2F;粘贴,  自定义命令</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=XWpsRupJ4II">Emacs 教程 (初学者 -第 2 部分- Buffer 管理, 搜索, M-x grep 和 rgrep 模式</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=paSgzPso-yc">Emacs 教程 (初学者 -第 3 部分- 表达式, 声明, ~&#x2F;.emacs 文件和包机制</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JWD1Fpdd4Pc">Evil 模式: 或许, 我是怎样对 Emacs 路人转粉的 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs">使用 Emacs 开发 C 程序</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s">Emacs 绝对初学者指南（David Wilson的视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/">Emacs 绝对初学者指南（David Wilson 批注）</a></li>
+</ul>
+</li>
+<li><h3 id="Unix-命令行工具"><a href="#Unix-命令行工具" class="headerlink" title="Unix 命令行工具"></a>Unix 命令行工具</h3><ul>
+<li>下列内容包含优秀工具</li>
+<li>bash</li>
+<li>cat</li>
+<li>grep</li>
+<li>sed</li>
+<li>awk</li>
+<li>curl or wget</li>
+<li>sort</li>
+<li>tr</li>
+<li>uniq</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Strace">strace</a></li>
+<li><a target="_blank" rel="noopener" href="https://danielmiessler.com/study/tcpdump/">tcpdump</a></li>
+</ul>
+</li>
+<li><h3 id="信息论-视频"><a href="#信息论-视频" class="headerlink" title="信息论 (视频)"></a>信息论 (视频)</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.khanacademy.org/computing/computer-science/informationtheory">Khan Academy 可汗学院</a></li>
+<li>更多有关马尔可夫的内容:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation">马尔可夫内容生成（Core Markov Text Generation）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation">Core Implementing Markov Text Generation马尔可夫内容生成实现</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through">一个马尔可夫内容生成器的项目（Project &#x3D; Markov Text Generation Walk Through）</a></li>
+</ul>
+</li>
+<li>关于更多信息，请参照下方 MIT 6.050J 信息和系统复杂度的内容。</li>
+</ul>
+</li>
+<li><h3 id="奇偶校验位-汉明码-视频"><a href="#奇偶校验位-汉明码-视频" class="headerlink" title="奇偶校验位 &amp; 汉明码 (视频)"></a>奇偶校验位 &amp; 汉明码 (视频)</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=q-3BctoUpHE">入门</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=DdMcAUlxh1M">奇偶校验位</a></li>
+<li>汉明码(Hamming Code):<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1A_NcXxdoCc">发现错误</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JAMLuxdHH8o">修正错误</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=wbH2VxzmoZk">检查错误</a></li>
+</ul>
+</li>
+<li><h3 id="系统熵值（Entropy）"><a href="#系统熵值（Entropy）" class="headerlink" title="系统熵值（Entropy）"></a>系统熵值（Entropy）</h3><ul>
+<li>请参考下方视频</li>
+<li>观看之前，请先确定观看了信息论的视频</li>
+<li><a target="_blank" rel="noopener" href="https://youtu.be/JnJq3Py0dyM?t=176">信息理论, 克劳德·香农, 熵值, 系统冗余, 数据比特压缩 (视频)</a></li>
+</ul>
+</li>
+<li><h3 id="密码学"><a href="#密码学" class="headerlink" title="密码学"></a>密码学</h3><ul>
+<li>请参考下方视频</li>
+<li>观看之前，请先确定观看了信息论的视频</li>
+<li><a target="_blank" rel="noopener" href="https://www.khanacademy.org/computing/computer-science/%E5%AF%86%E7%A0%81%E5%AD%A6">可汗学院</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30">密码学: 哈希函数</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">密码学: 加密</a></li>
+</ul>
+</li>
+<li><h3 id="压缩"><a href="#压缩" class="headerlink" title="压缩"></a>压缩</h3><ul>
+<li>观看之前，请先确定观看了信息论的视频</li>
+<li>Computerphile (视频)：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lto-ajuqW3w">压缩</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=M5c_RFKVkko">压缩熵值</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=umTbivyJoiI">由上而下的树 (霍夫曼编码树)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=DV8efuB3h2g">额外比特 - 霍夫曼编码树</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=goOa3DGezUA">优雅的压缩数据 (无损数据压缩方法)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=cCDCfoHTsaU">Text Compression Meets Probabilities</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H">数据压缩的艺术</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=whGwm0Lky2s">(可选) 谷歌开发者：GZIP 还差远了呢!</a></li>
+</ul>
+</li>
+<li><h3 id="计算机安全"><a href="#计算机安全" class="headerlink" title="计算机安全"></a>计算机安全</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">MIT（23个视频）</a><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">威胁模型：入门</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2">控制劫持攻击</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3">缓冲区溢出漏洞攻击和防御</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">优先权区分</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">能力</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6">在沙盒中运行原生代码</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">网络安全模型</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">网络安全应用</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">标志化执行</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">网络安全</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">网络协议</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">旁路攻击</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="垃圾回收"><a href="#垃圾回收" class="headerlink" title="垃圾回收"></a>垃圾回收</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iHVs_HkjdmI">Python 中的垃圾回收 (视频)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.infoq.com/presentations/garbage-collection-benefits">深度解析：论垃圾回收在 JAVA 中的重要性</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3">深度解析：论垃圾回收在 Python 中的重要性(视频)</a></li>
+</ul>
+</li>
+<li><h3 id="并行编程"><a href="#并行编程" class="headerlink" title="并行编程"></a>并行编程</h3><ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/parprog1/home/week/1">Coursera (Scala)</a></li>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uY85GkaYzBk">用于高性能并行计算的高效Python（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="消息传递，序列化和队列系统"><a href="#消息传递，序列化和队列系统" class="headerlink" title="消息传递，序列化和队列系统"></a>消息传递，序列化和队列系统</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://thrift.apache.org/">Thrift</a><ul>
+<li><a target="_blank" rel="noopener" href="http://thrift-tutorial.readthedocs.io/en/latest/intro.html">教程</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/protocol-buffers/">协议缓冲</a><ul>
+<li><a target="_blank" rel="noopener" href="https://developers.google.com/protocol-buffers/docs/tutorials">教程</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www.grpc.io/">gRPC</a><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1">gRPC 对于JAVA开发者的入门教程（视频）</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://redis.io/">Redis</a><ul>
+<li><a target="_blank" rel="noopener" href="http://try.redis.io/">教程</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://aws.amazon.com/sqs/">Amazon的 SQS 系统 (队列)</a></li>
+<li><a target="_blank" rel="noopener" href="https://aws.amazon.com/sns/">Amazon的 SNS 系统 (pub-sub)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.rabbitmq.com/">RabbitMQ</a><ul>
+<li><a target="_blank" rel="noopener" href="https://www.rabbitmq.com/getstarted.html">入门教程</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://www.celeryproject.org/">Celery</a><ul>
+<li><a target="_blank" rel="noopener" href="http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html">Celery入门</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://zeromq.org/">ZeroMQ</a><ul>
+<li><a target="_blank" rel="noopener" href="http://zeromq.org/intro:read-the-manual">入门教程</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://activemq.apache.org/">ActiveMQ</a></li>
+<li><a target="_blank" rel="noopener" href="http://kafka.apache.org/documentation.html#introduction">Kafka</a></li>
+<li><a target="_blank" rel="noopener" href="http://msgpack.org/index.html">MessagePack</a></li>
+<li><a target="_blank" rel="noopener" href="https://avro.apache.org/">Avro</a></li>
+</ul>
+</li>
+<li><h3 id="A-搜索算法"><a href="#A-搜索算法" class="headerlink" title="A*搜索算法"></a>A*搜索算法</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/A*_search_algorithm">A 搜索算法</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=-L-WgKMFuhE">A* 路径搜索（E01：算法解释）（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="快速傅里叶变换"><a href="#快速傅里叶变换" class="headerlink" title="快速傅里叶变换"></a>快速傅里叶变换</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/">傅立叶变换的交互式指南</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/">什么是傅立叶变换？论傅立叶变换的用途</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Xxut2PN-V8Q">什么是傅立叶变换？ (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4">分而治之：FFT（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/">FTT 是什么</a></li>
+</ul>
+</li>
+<li><h3 id="布隆过滤器"><a href="#布隆过滤器" class="headerlink" title="布隆过滤器"></a>布隆过滤器</h3><ul>
+<li>给定布隆过滤器m比特位和k个哈希函数，插入和成员检测都会是 O(k)。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=-SuTGoFYjZs">布隆过滤器（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=qBTdukbzc78">布隆过滤器 | 数据挖掘 | Stanford University（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="http://billmill.org/bloomfilter-tutorial/">教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/">如何写一个布隆过滤器应用</a></li>
+</ul>
+</li>
+<li><h3 id="HyperLogLog"><a href="#HyperLogLog" class="headerlink" title="HyperLogLog"></a>HyperLogLog</h3><ul>
+<li><a target="_blank" rel="noopener" href="http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html">如何仅使用1.5KB内存计算十亿个不同的对象</a></li>
+</ul>
+</li>
+<li><h3 id="局部敏感哈希"><a href="#局部敏感哈希" class="headerlink" title="局部敏感哈希"></a>局部敏感哈希</h3><ul>
+<li>用于确定文件的相似性</li>
+<li>MD5 或 SHA 的反义词，用于确定2个文档&#x2F;字符串是否完全相同</li>
+<li><a target="_blank" rel="noopener" href="http://ferd.ca/simhashing-hopefully-made-simple.html">Simhashing（希望如此）变得简单</a></li>
+</ul>
+</li>
+<li><h3 id="van-Emde-Boas-树"><a href="#van-Emde-Boas-树" class="headerlink" title="van Emde Boas 树"></a>van Emde Boas 树</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6">分而治之：van Emde Boas 树 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf">MIT课堂笔记</a></li>
+</ul>
+</li>
+<li><h3 id="增强数据结构"><a href="#增强数据结构" class="headerlink" title="增强数据结构"></a>增强数据结构</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950">CS 61B 第 39 课: 增强数据结构</a></li>
+</ul>
+</li>
+<li><h3 id="平衡查找树（Balanced-search-trees）"><a href="#平衡查找树（Balanced-search-trees）" class="headerlink" title="平衡查找树（Balanced search trees）"></a>平衡查找树（Balanced search trees）</h3><ul>
+<li><p>掌握至少一种平衡查找树（并懂得如何实现）：</p>
+</li>
+<li><p>“在各种平衡查找树当中，AVL 树和2-3树已经成为了过去，而红黑树（red-black trees）看似变得越来越受人青睐。<br>  这种令人特别感兴趣的数据结构，亦称伸展树（splay tree）。<br>  它可以自我管理，且会使用轮换来移除任何访问过根节点的键。” —— Skiena</p>
+</li>
+<li><p>因此，在各种各样的平衡查找树当中，我选择了伸展树来实现。<br>虽然，通过我的阅读，我发现在面试中并不会被要求实现一棵平衡查找树。<br>但是，为了胜人一筹，我们还是应该看看如何去实现。在阅读了大量关于红黑树的代码后，<br>我才发现伸展树的实现确实会使得各方面更为高效。</p>
+<ul>
+<li>伸展树：插入、查找、删除函数的实现，而如果你最终实现了红黑树，那么请尝试一下：</li>
+<li>跳过删除函数，直接实现搜索和插入功能</li>
+</ul>
+</li>
+<li><p>我希望能阅读到更多关于 B 树的资料，因为它也被广泛地应用到大型的数据集当中。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree">自平衡二叉查找树</a></p>
+</li>
+<li><p><strong>AVL 树</strong></p>
+<ul>
+<li>实际中：<br>  我能告诉你的是，该种树并无太多的用途，但我能看到有用的地方在哪里：<br>  AVL 树是另一种平衡查找树结构。其可支持时间复杂度为 O(log n) 的查询、插入及删除。<br>  它比红黑树严格意义上更为平衡，从而导致插入和删除更慢，但遍历却更快。正因如此，才彰显其结构的魅力。<br>  只需要构建一次，就可以在不重新构造的情况下读取，<br>  适合于实现诸如语言字典（或程序字典，如一个汇编程序或解释程序的操作码）。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6">MIT AVL 树 &#x2F; AVL 树的排序（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees">AVL 树（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation">AVL 树的实现（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge">分离与合并</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-">[Review] AVL Trees (playlist) in 19 minutes (video)</a></li>
+</ul>
+</li>
+<li><p><strong>伸展树</strong></p>
+<ul>
+<li>实际中：<br>  伸展树一般用于缓存、内存分配者、路由器、垃圾回收者、数据压缩、ropes<br>  （字符串的一种替代品，用于存储长串的文本字符）、<br>  Windows NT（虚拟内存、网络及文件系统）等的实现。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd">CS 61B：伸展树（Splay trees）（视频）</a></li>
+<li>MIT 教程：伸展树（Splay trees）：<ul>
+<li>该教程会过于学术，但请观看到最后的10分钟以确保掌握。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=QnPl_Y6EqMo">视频</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>红黑树</strong></p>
+<ul>
+<li>这些是2-3棵树的翻译（请参见下文）。</li>
+<li>实际中：红黑树提供了在最坏情况下插入操作、删除操作和查找操作的时间保证。<br>  这些时间值的保障不仅对时间敏感型应用有用，例如实时应用，<br>  还对在其他数据结构中块的构建非常有用，<br>  而这些数据结构都提供了最坏情况下的保障；<br>  例如，许多用于计算几何学的数据结构都可以基于红黑树，<br>  而目前 Linux 内核所采用的完全公平调度器（the Completely Fair Scheduler）也使用到了该种树。<br>  在 Java 8中，Collection HashMap也从原本用Linked List实现，<br>  储存特定元素的哈希码，改为用红黑树实现。</li>
+<li><a target="_blank" rel="noopener" href="https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871">Aduni —— 算法 —— 课程4（该链接直接跳到开始部分）（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5">Aduni —— 算法 —— 课程5（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree">黑树（Black Tree）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/">二分查找及红黑树的介绍</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin">[Review] Red-Black Trees (playlist) in 30 minutes (video)</a></li>
+</ul>
+</li>
+<li><p><strong>2-3查找树</strong></p>
+<ul>
+<li>实际中：<br>  2-3树的元素插入非常快速，但却有着查询慢的代价（因为相比较 AVL 树来说，其高度更高）。</li>
+<li>你会很少用到2-3树。这是因为，其实现过程中涉及到不同类型的节点。因此，人们更多地会选择红黑树。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2">2-3树的直感与定义（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6">2-3树的二元观点</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">2-3树（学生叙述）（视频）</a></li>
+</ul>
+</li>
+<li><p><strong>2-3-4树 (亦称2-4树)</strong></p>
+<ul>
+<li>实际中：<br>  对于每一棵2-4树，都有着对应的红黑树来存储同样顺序的数据元素。<br>  在2-4树上进行插入及删除操作等同于在红黑树上进行颜色翻转及轮换。<br>  这使得2-4树成为一种用于掌握红黑树背后逻辑的重要工具。<br>  这就是为什么许多算法引导文章都会在介绍红黑树之前，先介绍2-4树，尽管<strong>2-4树在实际中并不经常使用</strong>。</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C">CS 61B Lecture 26：平衡查找树（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6">自底向上的2-4树（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5">自顶向下的2-4树（视频）</a></li>
+</ul>
+</li>
+<li><p><strong>N 叉树（K 叉树、M 叉树）</strong></p>
+<ul>
+<li>注意：N 或 K 指的是分支系数（即树的最大分支数）：</li>
+<li>二叉树是一种分支系数为2的树</li>
+<li>2-3树是一种分支系数为3的树</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/K-ary_tree">K 叉树</a></li>
+</ul>
+</li>
+<li><p><strong>B 树</strong></p>
+<ul>
+<li>有趣的是：为啥叫 B 仍然是一个神秘。因为 B 可代表波音（Boeing）、平衡（Balanced）或 Bayer（联合创造者）</li>
+<li>实际中：<br>  B 树会被广泛适用于数据库中，而现代大多数的文件系统都会使用到这种树（或变种）。<br>  除了运用在数据库中，B 树也会被用于文件系统以快速访问一个文件的任意块。<br>  但存在着一个基本的问题，<br>  那就是如何将文件块 i 转换成一个硬盘块（或一个柱面-磁头-扇区）上的地址。</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/B-tree">B 树</a></li>
+<li><a target="_blank" rel="noopener" href="http://btechsmartclass.com/data_structures/b-trees.html">B 树数据结构</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6">B 树的介绍（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6">B 树的定义及其插入操作（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6">B 树的删除操作（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf">MIT 6.851 —— 内存层次模块（Memory Hierarchy Models）（视频）</a><ul>
+<li>覆盖有高速缓存参数无关型（cache-oblivious）B 树和非常有趣的数据结构</li>
+<li>头37分钟讲述的很专业，或许可以跳过（B 指块的大小、即缓存行的大小）</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz">[Review] B-Trees (playlist) in 26 minutes (video)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="k-D树"><a href="#k-D树" class="headerlink" title="k-D树"></a>k-D树</h3><ul>
+<li>非常适合在矩形或更高维度的对象中查找点数</li>
+<li>最适合k近邻</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Y4ZgLlDfKDg">kNN K-d树算法（视频）</a></li>
+</ul>
+</li>
+<li><h3 id="跳表"><a href="#跳表" class="headerlink" title="跳表"></a>跳表</h3><ul>
+<li>“有一种非常迷幻的数据类型” - Skiena</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">随机化: 跳表 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Skip_list">更生动详细的解释</a></li>
+</ul>
+</li>
+<li><h3 id="网络流"><a href="#网络流" class="headerlink" title="网络流"></a>网络流</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=v1VgJmkEJW0">5分钟简析 Ford-Fulkerson──一步步示例 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=v1VgJmkEJW0">Ford-Fulkerson 算法 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2vhN4Ice5jI">网络流 (视频)</a></li>
+</ul>
+</li>
+<li><h3 id="不相交集-联合查找"><a href="#不相交集-联合查找" class="headerlink" title="不相交集 &amp; 联合查找"></a>不相交集 &amp; 联合查找</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21">UCB 61B - 不相交集；排序 &amp; 选择(视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-part1/home/week/1">Sedgewick算法──Union-Find（6视频）</a></li>
+</ul>
+</li>
+<li><h3 id="快速处理的数学"><a href="#快速处理的数学" class="headerlink" title="快速处理的数学"></a>快速处理的数学</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">整数运算, Karatsuba 乘法 (视频)</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ru7mWZJlRQg">中国剩余定理 (在密码学中的使用) (视频)</a></li>
+</ul>
+</li>
+<li><h3 id="树堆-Treap"><a href="#树堆-Treap" class="headerlink" title="树堆 (Treap)"></a>树堆 (Treap)</h3><ul>
+<li>一个二叉搜索树和一个堆的组合</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Treap">树堆</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6podLUYinH8">数据结构：树堆的讲解（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf">集合操作的应用(Applications in set operations)</a></li>
+</ul>
+</li>
+<li><h3 id="线性规划（Linear-Programming）（视频）"><a href="#线性规划（Linear-Programming）（视频）" class="headerlink" title="线性规划（Linear Programming）（视频）"></a>线性规划（Linear Programming）（视频）</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=M4K6HYLHREQ">线性规划</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2ACJ9ewUC6U">寻找最小成本</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8AA_81xI3ik">寻找最大值</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=44pAWI7v5Zk">用 Python 解决线性方程式──单纯形算法</a></li>
+</ul>
+</li>
+<li><h3 id="几何：凸包（Geometry-Convex-hull）（视频）"><a href="#几何：凸包（Geometry-Convex-hull）（视频）" class="headerlink" title="几何：凸包（Geometry, Convex hull）（视频）"></a>几何：凸包（Geometry, Convex hull）（视频）</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164">Graph Alg. IV: 几何算法介绍 - 第 9 课</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm">Graham &amp; Jarvis: 几何算法 - 第 10 课</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2">分而治之: 凸包, 中值查找</a></li>
+</ul>
+</li>
+<li><h3 id="离散数学"><a href="#离散数学" class="headerlink" title="离散数学"></a>离散数学</h3><ul>
+<li><a target="_blank" rel="noopener" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html">计算机科学70，001 - 2015年春季 - 离散数学与概率论</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t">离散数学由Shai Simonson（19个视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://nptel.ac.in/courses/106/106/106106183/">离散数学由印度理工学院罗帕尔分校NPTEL提供</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="一些主题的额外内容"><a href="#一些主题的额外内容" class="headerlink" title="一些主题的额外内容"></a>一些主题的额外内容</h2><pre><code>我添加了这些内容来加强上面已经提出的一些观点，但是不想把它们放在上面，因为那样会太多。
+对于一个主题来说，过度处理很容易。
+你希望在本世纪被雇佣吗？
+</code></pre>
+<ul>
+<li><p><strong>SOLID</strong></p>
+<ul>
+<li><input disabled type="checkbox"> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=TMuno5RZNeE">Bob Martin SOLID Principles of Object Oriented and Agile Design (视频)</a></li>
+<li><input disabled type="checkbox"> S - <a target="_blank" rel="noopener" href="http://www.oodesign.com/single-responsibility-principle.html">单一职责原则 | 每个对象负责一个单一职责</a> | <a target="_blank" rel="noopener" href="http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html">Single responsibility to each Object</a><ul>
+<li><a target="_blank" rel="noopener" href="https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk">更多解释</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> O - <a target="_blank" rel="noopener" href="http://www.oodesign.com/open-close-principle.html">开闭原则</a>  | <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Open/closed_principle">在生产级别上，对象应准备好进行扩展，但不进行修改</a><ul>
+<li><a target="_blank" rel="noopener" href="http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en">更多解释</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> L - <a target="_blank" rel="noopener" href="http://www.oodesign.com/liskov-s-substitution-principle.html">里氏替换原则</a> | <a target="_blank" rel="noopener" href="http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle">基类和派生类遵循‘是一个’原则</a><ul>
+<li><a target="_blank" rel="noopener" href="http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en">更多解释</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> I - <a target="_blank" rel="noopener" href="http://www.oodesign.com/interface-segregation-principle.html">接口隔离原则</a> | 客户端不应被强制实现不使用的接口<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=3CtAfl7aXAQ">5分钟内的接口隔离原则（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en">更多解释</a></li>
+</ul>
+</li>
+<li><input disabled type="checkbox"> D -<a target="_blank" rel="noopener" href="http://www.oodesign.com/dependency-inversion-principle.html">依赖反转原则</a> | 在对象的组合中减少依赖<ul>
+<li><a target="_blank" rel="noopener" href="http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important">为何依赖反转原则如此重要</a></li>
+<li><a target="_blank" rel="noopener" href="http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en">更多解释</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Union-Find</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/JssSY/overview">概览</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations">初级实践</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees">树状结构</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank">合并树状结构</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression">路径压缩</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional">分析选项</a></li>
+</ul>
+</li>
+<li><p><strong>动态规划的更多内容</strong> (视频)</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19">6.006: 动态规划 I: 斐波那契数列, 最短路径</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20">6.006: 动态规划 II: 文本匹配, 二十一点&#x2F;黑杰克</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21">6.006: 动态规划 III: 最优加括号方式, 最小编辑距离, 背包问题</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb">6.006: 动态规划 IV: 吉他指法，拓扑，超级马里奥.</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">6.046: 动态规划: 动态规划进阶</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15">6.046: 动态规划: 所有点对最短路径</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12">6.046: 动态规划: 更多示例</a></li>
+</ul>
+</li>
+<li><p><strong>图形处理进阶</strong> (视频)</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27">异步分布式算法: 对称性破缺，最小生成树</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28">异步分布式算法: 最小生成树</a></li>
+</ul>
+</li>
+<li><p>MIT <strong>概率论</strong> (过于数学，进度缓慢，但这对于数学的东西却是必要之恶) (视频):</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B">MIT 6.042J - 概率论概述</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B">MIT 6.042J - 条件概率 Probability</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B">MIT 6.042J - 独立</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21">MIT 6.042J - 随机变量</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B">MIT 6.042J - 期望 I</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B">MIT 6.042J - 期望 II</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B">MIT 6.042J - 大偏差</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25">MIT 6.042J - 随机游走</a></li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19">Simonson: 近似算法 (视频)</a></p>
+</li>
+<li><p><strong>字符串匹配</strong></p>
+<ul>
+<li>Rabin-Karp（视频）<ul>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm">Rabin Karps 算法</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation">预计算</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis">优化：实施和分析</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9">表翻倍，Karp-Rabin</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32">滚动哈希，摊销分析</a></li>
+</ul>
+</li>
+<li>Knuth-Morris-Pratt (KMP)：<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=5i7oKodCRJo">Knuth-Morris-Pratt（KMP）字符串匹配算法</a></li>
+</ul>
+</li>
+<li>Boyer–Moore 字符串搜索算法<ul>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm">Boyer–Moore 字符串搜索算法</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=QDZpzctPf10">高级字符串搜索Boyer-Moore-Horspool算法（视频）</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.coursera.org/learn/algorithms-on-strings/home/week/1">Coursera：字符串算法</a><ul>
+<li>刚开始时很棒，但是当它超过 KMP 时，它变得比需要复杂得多</li>
+<li>很好的字典树解释</li>
+<li>可以跳过</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>排序</strong></p>
+<ul>
+<li>斯坦福大学关于排序算法的视频:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69">课程 15 | 编程抽象（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69">课程 16 | 编程抽象（视频）</a></li>
+</ul>
+</li>
+<li>Shai Simonson 视频，<a target="_blank" rel="noopener" href="http://www.aduni.org/">Aduni.org</a>:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2">算法 - 排序 - 第二讲（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3">算法 - 排序2 - 第三讲（视频）</a></li>
+</ul>
+</li>
+<li>Steven Skiena 关于排序的视频:<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=jUf-UQ3a0kg&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=8">CSE373 2020 - 归并排序&#x2F;快速排序（视频）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0ksyQKmre84&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=9">CSE373 2020 - 线性排序（视频）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>NAND 到 Tetris: <a target="_blank" rel="noopener" href="https://www.coursera.org/learn/build-a-computer">从第一原理构建现代计算机</a></p>
+</li>
+</ul>
+<h2 id="视频系列"><a href="#视频系列" class="headerlink" title="视频系列"></a>视频系列</h2><p>坐下来，尽情享受。</p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr">个人的动态规划问题列表 (都是短视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0">x86 架构，汇编，应用程序 (11 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8">MIT 18.06 线性代数，2005 年春季 (35 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL3B08AE665AB9002A">绝妙的 MIT 微积分：单变量微积分</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=22hwcnXIGgk&list=PLOtl7M3yp-DX6ic0HGT0PUX_wiNmkWkXx&index=1">Skiena讲座来自《算法设计手册》- CSE373 2020 - 算法分析（26个视频）</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd">UC Berkeley 61B (2014 年春季): 数据结构 (25 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C">UC Berkeley 61B (2006 年秋季): 数据结构 (39 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_">UC Berkeley 61C：计算机结构 (26 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO">OOSE：使用 UML 和 Java 进行软件开发 (21 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-">MIT 6.004: 计算结构 (49 视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq">卡內基梅隆大学 - 计算机架构讲座 (39 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False">MIT 6.006：算法介绍 (47 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484">MIT 6.033：计算机系统工程 (22 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi">MIT 6.034：人工智能，2010 年秋季 (30 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B">MIT 6.042J：计算机科学数学, 2010 年秋季 (25 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp">MIT 6.046：算法设计与分析 (34 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7">MIT 6.050J：信息和熵, 2008 年春季 (19 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1">MIT 6.851：高等数据结构 (22 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c">MIT 6.854: 高等算法, 2016 年春季 (24 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf">Harvard COMPSCI 224：高级算法（25个视频）</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh">MIT 6.858：计算机系统安全, 2014 年秋季</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL9D558D49CA734A02">斯坦福: 编程范例 (27 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy">密码学导论，Christof Paar</a></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://www.crypto-textbook.com/">课程网站以及幻灯片和问题集</a></li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV">大数据 - 斯坦福大学 (94 个视频)</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd">图论，Sarada Herke（67个视频）</a></p>
+</li>
+</ul>
+<h2 id="计算机科学课程"><a href="#计算机科学课程" class="headerlink" title="计算机科学课程"></a>计算机科学课程</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/open-source-society/computer-science">在线 CS 课程目录</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/prakhar1989/awesome-courses">CS 课程目录 (一些是在线讲座)</a></li>
+</ul>
+<h2 id="算法实现"><a href="#算法实现" class="headerlink" title="算法实现"></a>算法实现</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://algs4.cs.princeton.edu/code">普林斯顿大学的多算法实现</a></li>
+</ul>
+<h2 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.cs.cmu.edu/~crary/819-f09/">喜欢经典的论文？</a></li>
+<li><a target="_blank" rel="noopener" href="http://spinroot.com/courses/summer/Papers/hoare_1978.pdf">1978: 通信顺序处理</a><ul>
+<li><a target="_blank" rel="noopener" href="https://godoc.org/github.com/thomas11/csp">Go 实现</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf">2003: The Google 文件系统</a><ul>
+<li>2012 年被 Colossus 取代了</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf">2004: MapReduce: Simplified Data Processing on Large Clusters</a><ul>
+<li>大多被云数据流取代了?</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf">2006年：Bigtable：结构化数据的分布式存储系统</a></li>
+<li><a target="_blank" rel="noopener" href="https://research.google.com/archive/chubby-osdi06.pdf">2006年：针对松散耦合的分布式系统的Chubby Lock服务</a></li>
+<li><a target="_blank" rel="noopener" href="http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf">2007年：Dynamo：亚马逊的高可用键值存储</a><ul>
+<li>Dynamo论文启动了NoSQL革命</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://www.akkadia.org/drepper/cpumemory.pdf">2007: 每个程序员都应该知道的内存知识 (非常长，作者建议跳过某些章节来阅读)</a></li>
+<li>2012: AddressSanitizer: 快速的内存访问检查器:<ul>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf">论文</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany">视频</a></li>
+</ul>
+</li>
+<li>2013: Spanner: Google 的分布式数据库:<ul>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">论文</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.usenix.org/node/170855">视频</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf">2015: Google的持续流水线</a></li>
+<li><a target="_blank" rel="noopener" href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf">2015: 大规模高可用性：构建Google广告数据基础设施</a></li>
+<li><a target="_blank" rel="noopener" href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf">2015: 开发人员如何搜索代码：一个案例研究</a></li>
+<li>更多论文： <a target="_blank" rel="noopener" href="https://github.com/0voice/computer_expert_paper">1,000篇论文</a></li>
+</ul>
+<h2 id="LICENSE"><a href="#LICENSE" class="headerlink" title="LICENSE"></a>LICENSE</h2><p><a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university/blob/main/LICENSE.txt">CC-BY-SA-4.0</a></p>
+</div></article><div class="post-meta__tag-list"></div><nav id="pagination"><div class="next-post pull-right"><a href="/2024/04/14/title1panel/"><span></span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2024 By 今逢</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>
