@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-16T08:14:59.335Z</updated>
+  <updated>2024-04-16T12:23:56.086Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/16/%E5%B0%86githubpage%E5%92%8C%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/16/%E5%B0%86githubpage%E5%92%8C%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</id>
+    <published>2024-04-16T12:23:54.629Z</published>
+    <updated>2024-04-16T12:23:56.086Z</updated>
+    
+    <content type="html"><![CDATA[<p>title:将githubpage和域名绑定</p><hr><h1 id="0-关于哥们遇到的两个问题"><a href="#0-关于哥们遇到的两个问题" class="headerlink" title="0.关于哥们遇到的两个问题"></a>0.关于哥们遇到的两个问题</h1><h2 id="Both-lotus-hi-cn-and-its-alternate-name-are-improperly-configured-Domain-does-not-resolve-to-the-GitHub-Pages-server-For-more-information-see-documentation-NotServedByPagesError"><a href="#Both-lotus-hi-cn-and-its-alternate-name-are-improperly-configured-Domain-does-not-resolve-to-the-GitHub-Pages-server-For-more-information-see-documentation-NotServedByPagesError" class="headerlink" title="Both lotus.hi.cn and its alternate name are improperly configured Domain does not resolve to the GitHub Pages server. For more information, see documentation (NotServedByPagesError)."></a>Both lotus.hi.cn and its alternate name are improperly configured Domain does not resolve to the GitHub Pages server. For more information, see documentation (NotServedByPagesError).</h2><h2 id="www-lotus-hi-cn-is-improperly-configured-Your-site’s-DNS-settings-are-using-a-custom-subdomain-www-lotus-hi-cn-that-is-not-set-up-with-a-correct-CNAME-record-We-recommend-you-change-this-to-a-CNAME-record-pointing-to-lijinfengisrunning-github-io-For-more-information-see-documentation-InvalidCNAMEError"><a href="#www-lotus-hi-cn-is-improperly-configured-Your-site’s-DNS-settings-are-using-a-custom-subdomain-www-lotus-hi-cn-that-is-not-set-up-with-a-correct-CNAME-record-We-recommend-you-change-this-to-a-CNAME-record-pointing-to-lijinfengisrunning-github-io-For-more-information-see-documentation-InvalidCNAMEError" class="headerlink" title="www.lotus.hi.cn is improperly configured Your site’s DNS settings are using a custom subdomain, www.lotus.hi.cn, that is not set up with a correct CNAME record. We recommend you change this to a CNAME record pointing to lijinfengisrunning.github.io. For more information, see documentation (InvalidCNAMEError)."></a><a href="http://www.lotus.hi.cn/">www.lotus.hi.cn</a> is improperly configured Your site’s DNS settings are using a custom subdomain, <a href="http://www.lotus.hi.cn/">www.lotus.hi.cn</a>, that is not set up with a correct CNAME record. We recommend you change this to a CNAME record pointing to lijinfengisrunning.github.io. For more information, see documentation (InvalidCNAMEError).</h2><h3 id="解决如下"><a href="#解决如下" class="headerlink" title="解决如下 "></a>解决如下 <hr></h3><h1 id="1-首先ping一下"><a href="#1-首先ping一下" class="headerlink" title="1. 首先ping一下"></a>1. 首先ping一下</h1><p><strong><code>ping example.github.io</code></strong></p><p><strong>确定是ipv4还是ipv6的地址</strong></p><h1 id="2-然后建一下"><a href="#2-然后建一下" class="headerlink" title="2. 然后建一下"></a>2. 然后建一下</h1><p><strong>找到githubpage的文档中官方给的相应ip地址</strong></p><p><strong>将对应的IP地址添加到域名提供商的域名解析中</strong></p><p><strong>然后添加CNAME,主机记录填写www,记录名填写example.github.io</strong></p><h1 id="3-最后DNS一下"><a href="#3-最后DNS一下" class="headerlink" title="3. 最后DNS一下"></a>3. 最后DNS一下</h1><p><strong>返回控制台,找到<u>修改DNS服务器</u></strong></p><p><strong>分别填入以下四条</strong></p><p><strong><code>ns.692.awsdns-22.net</code></strong></p><p><strong><code>tobey.dnspod.net</code></strong></p><p><strong><code>ns-1622.awsdns-10.con.uk</code></strong></p><p><strong><code>dns2.p05.nsone.net</code></strong></p><h1 id="耐心等十分钟左右-再check-again-就瑟克赛斯否了"><a href="#耐心等十分钟左右-再check-again-就瑟克赛斯否了" class="headerlink" title="耐心等十分钟左右,再check again,就瑟克赛斯否了"></a>耐心等十分钟左右,再check again,就<u>瑟克赛斯否</u>了</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title:将githubpage和域名绑定&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;0-关于哥们遇到的两个问题&quot;&gt;&lt;a href=&quot;#0-关于哥们遇到的两个问题&quot; class=&quot;headerlink&quot; title=&quot;0.关于哥们遇到的两个问题&quot;&gt;&lt;/a&gt;0.关于哥们遇到的两个问</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日java</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/16/title%20%E4%BB%8A%E6%97%A5java/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/16/title%20%E4%BB%8A%E6%97%A5java/</id>
+    <published>2024-04-16T08:43:45.230Z</published>
+    <updated>2024-04-16T11:56:43.973Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>for(dataType data : datas){}</strong></p><ul><li>前后数据类型要一致,这个增强型for循环是建立在datas是数组的前提上</li></ul><p><strong>90度表示法</strong></p><ul><li>Math.PI &#x2F; 2</li><li>Math.toRadians(90)</li><li>double angle3 &#x3D; 90.0</li></ul><p><strong>Integer和new Integer()比较时</strong></p><p><strong>非new生成的对象是内存中的常量;Integer x &#x3D; 1;</strong></p><p><strong>new生成的对象是堆中的对象,与前者地址不同;Integer x &#x3D; new Integer(100);</strong></p><p><strong>当Integer和int比较时,Integer会自动拆包成int</strong></p><p><strong>char是单字符</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;for(dataType data : datas){}&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前后数据类型要一致,这个增强型for循环是建立在datas是数组的前提上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;90度表示法&lt;/strong&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>coderoad</title>
