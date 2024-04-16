@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-05T06:30:59.512Z</updated>
+  <updated>2024-04-14T14:11:44.781Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,137 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/14/title1panel/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/14/title1panel/</id>
+    <published>2024-04-14T14:11:44.781Z</published>
+    <updated>2024-04-14T14:11:44.781Z</updated>
+    
+    <content type="html"><![CDATA[<p>title:1panel</p><hr><p><strong>主机登陆地址是默认端口号，且是服务器的登陆密码和账户名</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title:1panel&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;主机登陆地址是默认端口号，且是服务器的登陆密码和账户名&lt;/strong&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/14/%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%9E%E7%8E%B0%E4%B8%8A%E4%B8%8B%E7%BF%BB%E9%A1%B5/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/14/%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%9E%E7%8E%B0%E4%B8%8A%E4%B8%8B%E7%BF%BB%E9%A1%B5/</id>
+    <published>2024-04-14T06:42:54.763Z</published>
+    <updated>2024-04-16T01:31:02.840Z</updated>
+    
+    <content type="html"><![CDATA[<p>title：鼠标滚轮在linux中无法使用</p><hr><h1 id="在命令行实现上下翻页"><a href="#在命令行实现上下翻页" class="headerlink" title="在命令行实现上下翻页"></a>在命令行实现上下翻页</h1><p><strong>向上翻页查看：</strong><kbd><strong>Shift + PgUp</strong></kbd></p><p><strong>向下翻页查看：</strong><kbd><strong>Shift + PgDn</strong></kbd></p><p><strong>ip addr show，查看端口号进行使用</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title：鼠标滚轮在linux中无法使用&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;在命令行实现上下翻页&quot;&gt;&lt;a href=&quot;#在命令行实现上下翻页&quot; class=&quot;headerlink&quot; title=&quot;在命令行实现上下翻页&quot;&gt;&lt;/a&gt;在命令行实现上下翻页&lt;/h1&gt;&lt;p&gt;&lt;str</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/14/tailcat%E7%9A%84docker%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/14/tailcat%E7%9A%84docker%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</id>
+    <published>2024-04-14T05:47:56.868Z</published>
+    <updated>2024-04-14T06:34:21.861Z</updated>
+    
+    <content type="html"><![CDATA[<p>title：centos的tailcat环境部署</p><hr><h1 id="Centos安装doker"><a href="#Centos安装doker" class="headerlink" title="Centos安装doker"></a>Centos安装doker</h1><p><code>curl -fsSL <a href="https://get.docker.com/">https://get.docker.com</a> -o get-docker.sh</code><br><code>sudo sh get-docker.sh</code></p><h1 id="Centos安装docker-compose"><a href="#Centos安装docker-compose" class="headerlink" title="Centos安装docker compose"></a>Centos安装docker compose</h1><ol><li><h2 id="安装yum-utils包"><a href="#安装yum-utils包" class="headerlink" title="安装yum-utils包"></a>安装yum-utils包</h2></li></ol><p><code>sudo yum install -y yum-utils</code></p><ol start="2"><li><h2 id="设置docker存储库"><a href="#设置docker存储库" class="headerlink" title="设置docker存储库"></a>设置docker存储库</h2></li></ol><p><code>sudo yum install -y yum-utils</code></p><ol start="3"><li><h2 id="安装docker-compose"><a href="#安装docker-compose" class="headerlink" title="安装docker-compose"></a>安装docker-compose</h2></li></ol><p><code>sudo yum install docker-compose-plugin</code></p><h1 id="参考：-Centos安装docker和docker-compose-阿里云开发者社区-aliyun-com-https-developer-aliyun-com-article-1281046-text-设置docker存储库-sudo-yum-config-manager-–add-repo-https-3A-2F-2Fdownload-docker-com-2Flinux-2Fcentos-2Fdocker-ce-repo-安装-Docker-Engine-docker-buildx-plugin-docker-compose-plugin-验证docker-engine是否安装成功-sudo-docker-run-hello-world"><a href="#参考：-Centos安装docker和docker-compose-阿里云开发者社区-aliyun-com-https-developer-aliyun-com-article-1281046-text-设置docker存储库-sudo-yum-config-manager-–add-repo-https-3A-2F-2Fdownload-docker-com-2Flinux-2Fcentos-2Fdocker-ce-repo-安装-Docker-Engine-docker-buildx-plugin-docker-compose-plugin-验证docker-engine是否安装成功-sudo-docker-run-hello-world" class="headerlink" title="参考：[Centos安装docker和docker compose-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/1281046#:~:text=设置docker存储库 sudo yum-config-manager –add-repo https%3A%2F%2Fdownload.docker.com%2Flinux%2Fcentos%2Fdocker-ce.repo 安装 Docker Engine,docker-buildx-plugin docker-compose-plugin 验证docker engine是否安装成功 sudo docker run hello-world)"></a>参考：[Centos安装docker和docker compose-阿里云开发者社区 (aliyun.com)](<a href="https://developer.aliyun.com/article/1281046#:~:text=%E8%AE%BE%E7%BD%AEdocker%E5%AD%98%E5%82%A8%E5%BA%93">https://developer.aliyun.com/article/1281046#:~:text=设置docker存储库</a> sudo yum-config-manager –add-repo https%3A%2F%2Fdownload.docker.com%2Flinux%2Fcentos%2Fdocker-ce.repo 安装 Docker Engine,docker-buildx-plugin docker-compose-plugin 验证docker engine是否安装成功 sudo docker run hello-world)</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title：centos的tailcat环境部署&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Centos安装doker&quot;&gt;&lt;a href=&quot;#Centos安装doker&quot; class=&quot;headerlink&quot; title=&quot;Centos安装doker&quot;&gt;&lt;/a&gt;Centos安装do</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/14/title%EF%BC%9A%E8%A7%A3%E5%86%B3Linux%E6%8C%82%E8%BD%BD%E5%A4%B1%E8%B4%A5mount%20mntcdrom%20can%E2%80%98t%20find%20in%20etcfstab/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/14/title%EF%BC%9A%E8%A7%A3%E5%86%B3Linux%E6%8C%82%E8%BD%BD%E5%A4%B1%E8%B4%A5mount%20mntcdrom%20can%E2%80%98t%20find%20in%20etcfstab/</id>
+    <published>2024-04-14T05:10:03.817Z</published>
+    <updated>2024-04-16T03:51:40.571Z</updated>
+    
+    <content type="html"><![CDATA[<p>title：解决Linux挂载失败</p><hr><h1 id="mount-mnt-cdrom-can‘t-find-in-etc-fstab"><a href="#mount-mnt-cdrom-can‘t-find-in-etc-fstab" class="headerlink" title="mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab."></a>mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab.</h1><ol><li>输入命令:mount -t iso9660 &#x2F;dev&#x2F;cdrom &#x2F;mnt&#x2F;cdrom<br>其中&#x2F;dev&#x2F;cdrom为软连接指向的是hdc即是镜像文件的挂载盘<br>这时候在输入命令：ls -l &#x2F;mnt&#x2F;cdrom 敲击enter键显示的是你要挂载的iso文件里的所有文件，到此成功挂载镜像</li><li>修改<code>/etc/fstab</code>文件<br>首先编辑文件<code>fstab</code>命令：<code>vi /etc/fstab</code><br>在文件里追加一行内容：<code>/dev/cdrom /mnt/cdrom iso9660 defaluts 0 0</code><br>然后在&#x2F;root目录下：<code>mkdir /mnt/cdrom</code><br>执行命令:<code>mount /mnt/cdrom</code><br>到此成功挂载镜像</li></ol><h1 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h1><h2 id="centeos安装使用yum；而apt是ubantu的命令"><a href="#centeos安装使用yum；而apt是ubantu的命令" class="headerlink" title="centeos安装使用yum；而apt是ubantu的命令"></a>centeos安装使用yum；而apt是ubantu的命令</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title：解决Linux挂载失败&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot;&gt;&lt;a href=&quot;#mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/14/centeos%E5%88%86%E9%85%8D%E5%AE%B9%E9%87%8F/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/14/centeos%E5%88%86%E9%85%8D%E5%AE%B9%E9%87%8F/</id>
+    <published>2024-04-14T03:43:12.972Z</published>
+    <updated>2024-04-14T03:54:19.807Z</updated>
+    
+    <content type="html"><![CDATA[<p>title:安装CenteOs7</p><hr><h1 id="系统-安装位置"><a href="#系统-安装位置" class="headerlink" title="系统-安装位置"></a>系统-安装位置</h1><h2 id="选择“我要配置分区”–分区选择“标准分区”–点击“完成”"><a href="#选择“我要配置分区”–分区选择“标准分区”–点击“完成”" class="headerlink" title="选择“我要配置分区”–分区选择“标准分区”–点击“完成”"></a>选择“我要配置分区”–分区选择“标准分区”–点击“完成”</h2><h4 id="“挂载点”设置："><a href="#“挂载点”设置：" class="headerlink" title="“挂载点”设置："></a>“挂载点”设置：</h4><ol><li>“&#x2F;boot[启动分区]”设置“200mb”</li><li>“swap[内存]”设置虚拟机硬件设置的两倍</li><li>选择“&#x2F;”，直接点击添加挂载点</li><li>点击“完成”</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title:安装CenteOs7&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;系统-安装位置&quot;&gt;&lt;a href=&quot;#系统-安装位置&quot; class=&quot;headerlink&quot; title=&quot;系统-安装位置&quot;&gt;&lt;/a&gt;系统-安装位置&lt;/h1&gt;&lt;h2 id=&quot;选择“我要配置分区”–分区选择“</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/12/word%E6%93%8D%E4%BD%9C/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/12/word%E6%93%8D%E4%BD%9C/</id>
+    <published>2024-04-12T00:31:50.860Z</published>
+    <updated>2024-04-12T00:31:50.860Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="word操作"><a href="#word操作" class="headerlink" title="word操作"></a>word操作</h3><h4 id="如果想要设置在页面的绝对距离。需要“新建文本框”，之后在“布局”里选择“位置”，然后可以设置目标参数了"><a href="#如果想要设置在页面的绝对距离。需要“新建文本框”，之后在“布局”里选择“位置”，然后可以设置目标参数了" class="headerlink" title="如果想要设置在页面的绝对距离。需要“新建文本框”，之后在“布局”里选择“位置”，然后可以设置目标参数了"></a>如果想要设置在页面的绝对距离。需要“新建文本框”，之后在“布局”里选择“位置”，然后可以设置目标参数了</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;word操作&quot;&gt;&lt;a href=&quot;#word操作&quot; class=&quot;headerlink&quot; title=&quot;word操作&quot;&gt;&lt;/a&gt;word操作&lt;/h3&gt;&lt;h4 id=&quot;如果想要设置在页面的绝对距离。需要“新建文本框”，之后在“布局”里选择“位置”，然后可以设置目标参</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>跳过win11联网</title>
