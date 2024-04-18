@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-16T14:28:15.799Z</updated>
+  <updated>2024-04-18T03:20:14.619Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决githubpage绑定域名后电脑端无法访问</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/18/title%20%E8%A7%A3%E5%86%B3githubpage%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E5%90%8E%E7%94%B5%E8%84%91%E7%AB%AF%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/18/title%20%E8%A7%A3%E5%86%B3githubpage%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E5%90%8E%E7%94%B5%E8%84%91%E7%AB%AF%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</id>
+    <published>2024-04-18T03:20:14.619Z</published>
+    <updated>2024-04-18T03:20:14.619Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>去到域名提供商,加入<u>github</u>的ipv4地址</strong></p><ul><li><pre><code class="shell">185.199.108.153185.199.109.153185.199.110.153185.199.111.153</code></pre></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;去到域名提供商,加入&lt;u&gt;github&lt;/u&gt;的ipv4地址&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;185.199.108.153
+185.199.109.153
+185.199.110.153
+185</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日java</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/17/title%20%E4%BB%8A%E6%97%A5java1/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/17/title%20%E4%BB%8A%E6%97%A5java1/</id>
+    <published>2024-04-17T01:38:00.390Z</published>
+    <updated>2024-04-17T06:40:00.162Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>软回车和硬回车</strong></p><ul><li>软回车:<kbd>shift+enter</kbd></li><li>硬回车:<kbd>enter</kbd></li></ul><p><strong>数据类型的类中</strong></p><ul><li>String类的对象一旦创建,就不可更改</li></ul><p><strong>Stringbuffer安全性更高;Stringbuilder性能更好</strong></p><ul><li>二者都是创造一串可以随时追加字符的字符序列</li><li>StringBuffer str &#x3D; new StringBuffer(“I LOVE YOU”);</li><li>str.append(“TOO”);&#x2F;&#x2F;append是追加内容的方法</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;软回车和硬回车&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;软回车:&lt;kbd&gt;shift+enter&lt;/kbd&gt;&lt;/li&gt;
+&lt;li&gt;硬回车:&lt;kbd&gt;enter&lt;/kbd&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;数据类型的类中&lt;/strong&gt;&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>将githubpage和域名绑定</title>
@@ -153,16 +203,16 @@
     <link href="https://lijinfengisrunning.github.io/2024/04/14/title%EF%BC%9A%E8%A7%A3%E5%86%B3Linux%E6%8C%82%E8%BD%BD%E5%A4%B1%E8%B4%A5mount%20mntcdrom%20can%E2%80%98t%20find%20in%20etcfstab/"/>
     <id>https://lijinfengisrunning.github.io/2024/04/14/title%EF%BC%9A%E8%A7%A3%E5%86%B3Linux%E6%8C%82%E8%BD%BD%E5%A4%B1%E8%B4%A5mount%20mntcdrom%20can%E2%80%98t%20find%20in%20etcfstab/</id>
     <published>2024-04-14T05:10:03.817Z</published>
-    <updated>2024-04-16T03:51:40.571Z</updated>
+    <updated>2024-04-16T14:48:59.251Z</updated>
     
-    <content type="html"><![CDATA[<p>title：解决Linux挂载失败</p><hr><h1 id="mount-mnt-cdrom-can‘t-find-in-etc-fstab"><a href="#mount-mnt-cdrom-can‘t-find-in-etc-fstab" class="headerlink" title="mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab."></a>mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab.</h1><ol><li>输入命令:mount -t iso9660 &#x2F;dev&#x2F;cdrom &#x2F;mnt&#x2F;cdrom<br>其中&#x2F;dev&#x2F;cdrom为软连接指向的是hdc即是镜像文件的挂载盘<br>这时候在输入命令：ls -l &#x2F;mnt&#x2F;cdrom 敲击enter键显示的是你要挂载的iso文件里的所有文件，到此成功挂载镜像</li><li>修改<code>/etc/fstab</code>文件<br>首先编辑文件<code>fstab</code>命令：<code>vi /etc/fstab</code><br>在文件里追加一行内容：<code>/dev/cdrom /mnt/cdrom iso9660 defaluts 0 0</code><br>然后在&#x2F;root目录下：<code>mkdir /mnt/cdrom</code><br>执行命令:<code>mount /mnt/cdrom</code><br>到此成功挂载镜像</li></ol><h1 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h1><h2 id="centeos安装使用yum；而apt是ubantu的命令"><a href="#centeos安装使用yum；而apt是ubantu的命令" class="headerlink" title="centeos安装使用yum；而apt是ubantu的命令"></a>centeos安装使用yum；而apt是ubantu的命令</h2>]]></content>
+    <content type="html"><![CDATA[<p>title： 解决Linux挂载失败</p><hr><h1 id="mount-mnt-cdrom-can‘t-find-in-etc-fstab"><a href="#mount-mnt-cdrom-can‘t-find-in-etc-fstab" class="headerlink" title="mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab."></a>mount: &#x2F;mnt&#x2F;cdrom: can‘t find in &#x2F;etc&#x2F;fstab.</h1><ol><li>输入命令:mount -t iso9660 &#x2F;dev&#x2F;cdrom &#x2F;mnt&#x2F;cdrom<br>其中&#x2F;dev&#x2F;cdrom为软连接指向的是hdc即是镜像文件的挂载盘<br>这时候在输入命令：ls -l &#x2F;mnt&#x2F;cdrom 敲击enter键显示的是你要挂载的iso文件里的所有文件，到此成功挂载镜像</li><li>修改<code>/etc/fstab</code>文件<br>首先编辑文件<code>fstab</code>命令：<code>vi /etc/fstab</code><br>在文件里追加一行内容：<code>/dev/cdrom /mnt/cdrom iso9660 defaluts 0 0</code><br>然后在&#x2F;root目录下：<code>mkdir /mnt/cdrom</code><br>执行命令:<code>mount /mnt/cdrom</code><br>到此成功挂载镜像</li></ol><h1 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h1><h2 id="centeos安装使用yum；而apt是ubantu的命令"><a href="#centeos安装使用yum；而apt是ubantu的命令" class="headerlink" title="centeos安装使用yum；而apt是ubantu的命令"></a>centeos安装使用yum；而apt是ubantu的命令</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;title：解决Linux挂载失败&lt;/p&gt;
+    <summary type="html">&lt;p&gt;title： 解决Linux挂载失败&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&quot;mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot;&gt;&lt;a href=&quot;#mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot; class=&quot;hea</summary>
+&lt;h1 id=&quot;mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot;&gt;&lt;a href=&quot;#mount-mnt-cdrom-can‘t-find-in-etc-fstab&quot; class=&quot;he</summary>
       
     
     
