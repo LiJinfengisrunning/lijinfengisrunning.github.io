@@ -6,7 +6,7 @@
   <link href="https://lijinfengisrunning.github.io/atom.xml" rel="self"/>
   
   <link href="https://lijinfengisrunning.github.io/"/>
-  <updated>2024-04-25T11:31:40.089Z</updated>
+  <updated>2024-04-29T14:13:38.053Z</updated>
   <id>https://lijinfengisrunning.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>今日java</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/29/title%20%E4%BB%8A%E6%97%A5java3/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/29/title%20%E4%BB%8A%E6%97%A5java3/</id>
+    <published>2024-04-29T12:52:09.906Z</published>
+    <updated>2024-04-29T14:13:38.053Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>重写中的方法的覆盖</strong></p><ul><li>子类和父类方法重名时,子类的方法直接覆盖父类方法</li></ul><p><strong>抽象类和抽象方法</strong></p><ul><li>抽象类不能被实例化,只能被继承,不能以<code>private</code>和<code>static</code>修饰</li><li>抽象方法和抽象方法必须以<code>abstract</code>修饰</li><li>抽象类是子类设计的模板,避免子类随意设计</li><li>抽象方法必须被覆盖</li><li>包含抽象方法的类必须被声明为抽象类</li></ul><p><strong>final类不能被继承</strong></p><p><strong>内部类</strong></p><ul><li><p>成员内部类</p></li><li><ul><li>默认使用public修饰,但是程序上不能声明</li><li>需要首先实例化主类,</li><li><code>Outer outer = new Outer();</code></li><li><code>Outer.Inner inner = outer.new Inner();</code></li></ul></li><li><p>局部内部类</p></li><li><ul><li>嵌套在成员方法内,只在成员方法内有效</li><li>能访问主类所有成员变量和方法</li><li>需要在方法体内创建内部类的实例</li><li>在方法外创建主体类的实例直接调用</li></ul></li><li><p>静态内部类</p></li><li><ul><li>需要在内部类前加上<code>static</code></li><li>可以不实例化主类直接实例化内部类</li><li><code>Outer.Inner inner = new Inner();</code></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;重写中的方法的覆盖&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;子类和父类方法重名时,子类的方法直接覆盖父类方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;抽象类和抽象方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;抽象类不能被实例化,只能被继承,不能以</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日java</title>
+    <link href="https://lijinfengisrunning.github.io/2024/04/27/%E5%A4%9A%E6%80%81/"/>
+    <id>https://lijinfengisrunning.github.io/2024/04/27/%E5%A4%9A%E6%80%81/</id>
+    <published>2024-04-27T13:55:36.262Z</published>
+    <updated>2024-04-27T13:55:36.263Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p><strong>重载</strong></p><ul><li>在一个类中出现多个方法成员方法名相同,但参数个数或参数的数据类型不同的方法</li><li>java根据参数个数和类型来区分具体执行哪个方法</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;多态&quot;&gt;&lt;a href=&quot;#多态&quot; class=&quot;headerlink&quot; title=&quot;多态&quot;&gt;&lt;/a&gt;多态&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;重载&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在一个类中出现多个方法成员方法名相同,但参数个数或参数的数据类型不同的方法</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>今日java</title>
@@ -400,46 +448,6 @@
       
       
     <summary type="html">&lt;h3 id=&quot;Gemini-Pro-Chat-chat4ai-top&quot;&gt;&lt;a href=&quot;#Gemini-Pro-Chat-chat4ai-top&quot; class=&quot;headerlink&quot; title=&quot;Gemini Pro Chat (chat4ai.top)&quot;&gt;&lt;/a&gt;&lt;a </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>for循环</title>
-    <link href="https://lijinfengisrunning.github.io/2024/04/21/for%E5%BE%AA%E7%8E%AF/"/>
-    <id>https://lijinfengisrunning.github.io/2024/04/21/for%E5%BE%AA%E7%8E%AF/</id>
-    <published>2024-04-21T10:11:21.712Z</published>
-    <updated>2024-04-04T05:36:35.691Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死"><a href="#1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死" class="headerlink" title="1.for里定义的初始量,没有赋值目标时,当循环结束时,会被杀死"></a>1.for里定义的初始量,没有赋值目标时,当循环结束时,会被杀死</h3><h3 id="2-sout-输出的只能是for方法以外存在的数据类型"><a href="#2-sout-输出的只能是for方法以外存在的数据类型" class="headerlink" title="2.[sout]输出的只能是for方法以外存在的数据类型"></a>2.[sout]输出的只能是for方法以外存在的数据类型</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死&quot;&gt;&lt;a href=&quot;#1-for里定义的初始量-没有赋值目标时-当循环结束时-会被杀死&quot; class=&quot;headerlink&quot; title=&quot;1.for里定义的初始量,没有赋值目标时,当循环结束时,</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>安装CenteOs7</title>
-    <link href="https://lijinfengisrunning.github.io/2024/04/21/centeos%E5%88%86%E9%85%8D%E5%AE%B9%E9%87%8F/"/>
-    <id>https://lijinfengisrunning.github.io/2024/04/21/centeos%E5%88%86%E9%85%8D%E5%AE%B9%E9%87%8F/</id>
-    <published>2024-04-21T10:11:21.711Z</published>
-    <updated>2024-04-18T08:39:43.200Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="系统-安装位置"><a href="#系统-安装位置" class="headerlink" title="系统-安装位置"></a>系统-安装位置</h1><h2 id="选择“我要配置分区”–分区选择“标准分区”–点击“完成”"><a href="#选择“我要配置分区”–分区选择“标准分区”–点击“完成”" class="headerlink" title="选择“我要配置分区”–分区选择“标准分区”–点击“完成”"></a>选择“我要配置分区”–分区选择“标准分区”–点击“完成”</h2><h4 id="“挂载点”设置："><a href="#“挂载点”设置：" class="headerlink" title="“挂载点”设置："></a>“挂载点”设置：</h4><ol><li>“&#x2F;boot[启动分区]”设置“200mb”</li><li>“swap[内存]”设置虚拟机硬件设置的两倍</li><li>选择“&#x2F;”，直接点击添加挂载点</li><li>点击“完成”</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;系统-安装位置&quot;&gt;&lt;a href=&quot;#系统-安装位置&quot; class=&quot;headerlink&quot; title=&quot;系统-安装位置&quot;&gt;&lt;/a&gt;系统-安装位置&lt;/h1&gt;&lt;h2 id=&quot;选择“我要配置分区”–分区选择“标准分区”–点击“完成”&quot;&gt;&lt;a href=&quot;#选择“我要</summary>
       
     
     
